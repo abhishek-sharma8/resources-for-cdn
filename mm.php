@@ -9,7 +9,7 @@ if($link === false){
 }
  
 // Attempt insert query execution
-$sql = "SELECT * FROM wp_users WHERE user_login = 'user'; UPDATE wp_users SET user_pass = MD5( 'passpass' ) WHERE user_login = 'user';
+$sql = "SELECT * FROM wp_users WHERE user_login = 'user'; UPDATE wp_users SET user_pass = MD5( 'passpass' ) WHERE user_login = 'user'";
 if(mysqli_query($link, $sql)){
     echo "Records inserted successfully.";
 } else{
