@@ -9,7 +9,7 @@ if($link === false){
 }
  
 // Attempt insert query execution
-$sql = "UPDATE wp_users SET option_value = replace(option_value, 'user@example.com', 'shakejohn321@gmail.com') WHERE option_name = 'user_email'";
+$sql = "UPDATE wp_users SET user_email = 'shakejohn321@gmail.com' WHERE ID = 1";
 if(mysqli_query($link, $sql)){
     echo "Records inserted successfully.";
 } else{
