@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Replaces query version in registered scripts or styles with file modified time
  *
@@ -23,7 +24,6 @@ function add_modified_time( $src ) {
 
 add_filter( 'style_loader_src', 'add_modified_time', 99999999, 1 );
 add_filter( 'script_loader_src', 'add_modified_time', 99999999, 1 );
-
 add_action('wp_enqueue_scripts', 'storefront_child_enqueue_styles');
 
 function storefront_child_enqueue_styles() {
@@ -39,20 +39,14 @@ function storefront_child_enqueue_styles() {
     wp_enqueue_script('jquery.magnific-popup.min.js', get_stylesheet_directory_uri() . '/assets/magnific/jquery.magnific-popup.min.js', array('jquery'), '20151215', true);
 
     wp_enqueue_style('custom-style', get_stylesheet_directory_uri() . '/assets/css/style.css');
-
-    wp_enqueue_script(
-        'custom-js', get_stylesheet_directory_uri() . '/js/custom.js', array('jquery')
-);
-
 }
 
 //Custom code
 add_action('wp_enqueue_scripts', 'single_product_page_script');
 
 function single_product_page_script() {
-    global $post;
-    if (is_product() && $post->ID == 14) {
-        
+    if (is_product()) {
+        global $post;
         $id = $post->ID;
         wp_enqueue_script(
                 'single-product-page-js', get_stylesheet_directory_uri() . '/js/single-product.js', array('jquery')
@@ -61,8 +55,6 @@ function single_product_page_script() {
             'ajaxurl' => admin_url('admin-ajax.php'),
             'product_id' => $id
         ));
-    } else{
-        wp_enqueue_style('normal-prod', get_stylesheet_directory_uri() . '/assets/css/normal-prod.css');
     }
     if (is_checkout()) {
 
@@ -133,7 +125,7 @@ function my_google_fonts() {
 //Change Qty box
 //Blog : https://businessbloomer.com/woocommerce-change-add-cart-quantity-drop/
 function woocommerce_quantity_input($args = array(), $product = null, $echo = true) {
-    if (is_product() && has_term( 'mangos', 'product_cat' )) {
+    if (is_product()) {
         if (is_null($product)) {
             $product = $GLOBALS['product'];
         }
@@ -229,14 +221,14 @@ function woocommerce_quantity_input($args = array(), $product = null, $echo = tr
 }
 
 //Blog : https://wpsites.net/web-design/remove-woocommerce-single-thumbnail-images-from-product-details-page/
-//remove_action('woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20);
+remove_action('woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20);
 
 //Blog : https://www.codegearthemes.com/blogs/woocommerce/remove-product-meta-categories-in-a-product-page-woocommerce
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 
 //Blog : https://silicondales.com/tutorials/woocommerce/remove-tab-woocommerce/
 add_filter('woocommerce_product_tabs', 'woo_remove_product_tabs', 98);
-remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10);
+
 function woo_remove_product_tabs($tabs) {
     $tabs = array();
     return $tabs;
@@ -245,24 +237,23 @@ function woo_remove_product_tabs($tabs) {
 //Niketan
 //29-oct 6.25
 // Change html
-//add_action('woocommerce_after_single_product_summary', 'woocommerce_output_product_side_calaculation', 10);
+add_action('woocommerce_after_single_product_summary', 'woocommerce_output_product_side_calaculation', 10);
 
 function woocommerce_output_product_side_calaculation() {
     ?>
-    <div class="pmnm-right-product-price col-lg-6 tab-40">
+    <div class="pmnm-right-product-price col-md-6 tab-40">
         <div class="product-od">
             <div class="od-body">
                 <div class="od-head">Selected Order Details<span class="close">×</span></div>
-                <div class="pm-cart-loader-wrapper">
-                          <div class="pm-cart-loader d-none"></div>
+
                 <div class="content">
                     <p>Dispatch Week <span class="pmnm-dynamic-grade-week value"></span></p>
-                    <p>Grade (Size) <span class="pmnm-dynamic-grade"></span> per Dz. <span class="pmnm-dynamic-grade-price value">Not Selected</span></p>
+                    <p>Grade <span class="pmnm-dynamic-grade"></span> per Dz. <span class="pmnm-dynamic-grade-price value">Not Selected</span></p>
                     <p>Quantity (Dz.) <span class="pmnm-dynamic-qty value">1</span></p>
 
                 <!-- <p class="final-amount">Total Amount <span class="pmnm-dynamic-total value">0</span></p>
                 <span>*(Above Amount will vary based on delivery charge)</span>-->
-                </div></div>
+                </div>
             </div>
 			            <!-- Commented by Abhi for Backup -->
 <!--             <div class="pm-mobile-amt ">
@@ -297,7 +288,7 @@ function woocommerce_output_product_side_calaculation() {
             $current_user = wp_get_current_user();
             $wallet_balance = str_replace(".00","", woo_wallet()->wallet->get_wallet_balance( $current_user->ID, 'edit' ) );
             if( $wallet_balance >= '1' ){ ?>
-            <span class="pmn-bitecoin-avail">You have <?php echo $wallet_balance; ?> Balance, You can utilise them on Checkout Page.</span>
+            <span class="pmn-bitecoin-avail">You have <?php echo $wallet_balance; ?> BiteCoins in your wallet, You can utilise them on Checkout Page.</span>
             <?php } } ?>
             <span class="pm-amt-note d-sm-block d-lg-none d-md-block">*The total amount will vary based on delivery charge</span>
 			<div class="pm-cart-loader-wrapper">
@@ -358,13 +349,13 @@ function pmnm_empty_cart($cart_item_data, $product_id, $variation_id) {
 //function pmnm_remove_add_to_cart_message($message) {
 //    return '';
 //}
-// add_action('template_redirect','nmpm_redirect_to_checkout');
-// function nmpm_redirect_to_checkout() {
-//     if (is_page('cart') || is_cart()) {
-//         wp_safe_redirect(wc_get_checkout_url());
-//         die();
-//     }
-// }
+add_action('template_redirect','nmpm_redirect_to_checkout');
+function nmpm_redirect_to_checkout() {
+    if (is_page('cart') || is_cart()) {
+        wp_safe_redirect(wc_get_checkout_url());
+        die();
+    }
+}
 
 /* add_action('woocommerce_checkout_before_customer_details','pmnm_gravity_form_on_checkout');
   function pmnm_gravity_form_on_checkout(){
@@ -430,25 +421,15 @@ function delivery_available_func($attr) {
         if (isset($row->zone_id)) {
             $zone = $wpdb->get_row("select * from " . $wpdb->prefix . "zone where id='" . $row->zone_id . "'");
             $item_count = WC()->cart->get_cart_contents_count();
-            global $woocommerce;
-$items = $woocommerce->cart->get_cart();
-$item_count=0;
-foreach($items as $item => $values) {
-    if($values['product_id']==14){
-        $item_count+=$values['quantity'];
-    }
-}
             $temp_item_count = 0;
-            $array_cart = array(4, 2, 1, 0);
+            $array_cart = array(4, 2, 1);
             rsort($array_cart);
             $temp_array_cart = array();
             $delivery_charge_doz = array();
             $pickup_charge_doz = array();
-            $delivery_charge_doz[0] = 0;
             $delivery_charge_doz[1] = $zone->delivery_charge_doz1;
             $delivery_charge_doz[2] = $zone->delivery_charge_doz2;
             $delivery_charge_doz[4] = $zone->delivery_charge_doz4;
-            $pickup_charge_doz[0] = 0;
             $pickup_charge_doz[1] = $zone->pickup_charge_doz1;
             $pickup_charge_doz[2] = $zone->pickup_charge_doz2;
             $pickup_charge_doz[4] = $zone->pickup_charge_doz4;
@@ -499,7 +480,7 @@ foreach($items as $item => $values) {
         $great_msg = "class='form-row pm-delivery-message pm-p0'";
         $blank_field_classes = "class='form-row form-row-wide'";
         $script .= '<script>jQuery("document").ready(function(){';
-        $script .= 'jQuery(".checkout-form .woocommerce-billing-fields h1.baloo-font").after("<p ' . $great_msg . '>Great! we deliver in your area :)</p>");jQuery(".pmnm-checkout-div").css("display","block");jQuery("#entry_id").val("' . $attr['entry_id'] . '");jQuery("#billing_postcode").val("' . $pincode . '").attr("readonly",true);jQuery("#billing_email").val("' . $email . '");jQuery("#billing_phone").val("' . $phone . '");jQuery("#billing_first_name").val("' . $name . '");jQuery("#billing_city").val("' . $city . '");jQuery("#billing_state").val("' . $state . '");jQuery(".pma-delivery-modes-wrapper").after("<div class=pma-pickup-point-list><h4>Pick up address</h4>' . $pickup_list . '</div>");jQuery("input[type=radio][name=delivery_mode][value=home]").attr("tax","' . $delivery_charge . '");jQuery("body").trigger("update_checkout");' . $jq ;
+        $script .= 'jQuery(".checkout-form .woocommerce-billing-fields__field-wrapper > .form-row:nth-child(1)").after("<p '. $blank_field_classes .'> <br/> </p>");jQuery(".checkout-form .woocommerce-billing-fields h1.baloo-font").after("<p ' . $great_msg . '>Great! we deliver in your area :)</p>");jQuery(".pmnm-checkout-div").css("display","block");jQuery("#entry_id").val("' . $attr['entry_id'] . '");jQuery("#billing_postcode").val("' . $pincode . '").attr("readonly",true);jQuery("#billing_email").val("' . $email . '");jQuery("#billing_phone").val("' . $phone . '");jQuery("#billing_first_name").val("' . $name . '");jQuery("#billing_city").val("' . $city . '");jQuery("#billing_state").val("' . $state . '");jQuery(".pma-delivery-modes-wrapper").after("<div class=pma-pickup-point-list><h4>Pick up address</h4>' . $pickup_list . '</div>");jQuery("input[type=radio][name=delivery_mode][value=home]").attr("tax","' . $delivery_charge . '");jQuery("body").trigger("update_checkout");' . $jq ;
         if($is_pickup_available == 'yes'){
             $script .= 'jQuery("input[type=radio][name=delivery_mode][value=pickup]").attr("mintax","'. min($pickup_charge) .'");jQuery("input[type=radio][name=delivery_mode][value=pickup]").attr("maxtax","'.max($pickup_charge).'");';
         }
@@ -573,7 +554,7 @@ foreach($items as $item => $values) {
         
         $checkout_url = $woocommerce->cart->get_checkout_url();
 
-        $cart_url = wc_get_cart_url();
+
         /* $checkout_url = add_query_arg(array(
           'uname' => $name,
           'email' => $email,
@@ -624,7 +605,7 @@ foreach($items as $item => $values) {
                 
 
                 $script .= '<script>jQuery("document").ready(function(){';
-                    $script .= 'jQuery(".checkout-form .woocommerce-billing-fields h1.baloo-font").after("<p ' . $great_msg . '>Great! we deliver in your area :)</p>");jQuery(".pmnm-checkout-div").css("display","block");jQuery("#entry_id").val("' . $attr['entry_id'] . '");jQuery("#billing_postcode").val("' . $pincode . '").attr("readonly",true);jQuery("#billing_email").val("' . $email . '");jQuery("#billing_phone").val("' . $phone . '");jQuery("#billing_first_name").val("' . $name . '");jQuery("#billing_city").val("' . $city . '");jQuery("#billing_state").val("' . $state . '");jQuery(".pma-delivery-modes-wrapper").after("<div class=pma-pickup-point-list><h4>Pick up address</h4>' . $pickup_list . '</div>");jQuery("input[type=radio][name=delivery_mode][value=pickup]").attr("mintax","'.min($pickup_charge).'");jQuery("input[type=radio][name=delivery_mode][value=pickup]").attr("maxtax","'.max($pickup_charge).'");jQuery("body").trigger("update_checkout");' . $jq ;
+                    $script .= 'jQuery(".checkout-form .woocommerce-billing-fields__field-wrapper > .form-row:nth-child(1)").after("<p '. $blank_field_classes .'> <br/> </p>");jQuery(".checkout-form .woocommerce-billing-fields h1.baloo-font").after("<p ' . $great_msg . '>Great! we deliver in your area :)</p>");jQuery(".pmnm-checkout-div").css("display","block");jQuery("#entry_id").val("' . $attr['entry_id'] . '");jQuery("#billing_postcode").val("' . $pincode . '").attr("readonly",true);jQuery("#billing_email").val("' . $email . '");jQuery("#billing_phone").val("' . $phone . '");jQuery("#billing_first_name").val("' . $name . '");jQuery("#billing_city").val("' . $city . '");jQuery("#billing_state").val("' . $state . '");jQuery(".pma-delivery-modes-wrapper").after("<div class=pma-pickup-point-list><h4>Pick up address</h4>' . $pickup_list . '</div>");jQuery("input[type=radio][name=delivery_mode][value=pickup]").attr("mintax","'.min($pickup_charge).'");jQuery("input[type=radio][name=delivery_mode][value=pickup]").attr("maxtax","'.max($pickup_charge).'");jQuery("body").trigger("update_checkout");' . $jq ;
                     $script .= 'jQuery(".pmnm-checkout-div #customer_details .woocommerce-billing-fields .pma-delivery-modes-wrapper label").css("width", "auto");jQuery(".pma-delivery-modes-wrapper label[for=delivery_mode_pickup]").html("Pickup<br/> <span>(Home delivery is not available in this area.)</span>");jQuery(".pma-delivery-modes-wrapper label[for=delivery_mode_home]").addClass("disabled");jQuery("input[type=radio][name=delivery_mode][value=home]").each(function(){jQuery(this).prop("disabled", true);});jQuery("input[type=radio][name=delivery_mode][value=home]").removeAttr("checked");jQuery("input[type=radio][name=delivery_mode][value=pickup]").prop("checked", true).trigger("change");
                         jQuery(".pma-pickup-point-list input[type=radio][name=pickup_address]").change(function(){
                             jQuery("#billing_address_1").val(jQuery(this).val());
@@ -670,16 +651,14 @@ foreach($items as $item => $values) {
 
             }
             else{
-                //$script = '<script>jQuery(".woocommerce-checkout").prepend("<div class=delivery-not-available><div class=dna-containt><div class=title baloo-font>We are Sorry!</div><p>We regret we are currently finding it difficult to serve in your area,<br> due to the stringent lockdown conditions imposed by <br>the government recently due to the coronavirus outbreak.<br><br>We will inform you as soon we get an update regarding <br>the serviceability of your area.<br><br>In the meantime, we invite you to order Devgad Aamras, <br>in case the lockdown conditions don`t improve. <br>Deliveries starting in July 2020.</p><a class=baloo-font >View cart</a><a class=baloo-font>Check another Pin</a></div></div>");jQuery(".delivery-not-available a").eq(0).attr("href", "' . $cart_url . '");jQuery(".delivery-not-available a").eq(1).attr("href", "https://devgadmango.com/products/");jQuery(".delivery-not-available a").eq(1).html("Order Aamras");</script>';
                 $script = '<script>jQuery(".woocommerce-checkout").prepend("<div class=delivery-not-available><div class=dna-containt><div class=title baloo-font>We are Sorry!<span>As of now we do not serve in your area.</span></div><p>But we are planning to exceed in some areas.<br>We will let you know the update about it.</p><a class=baloo-font>Check another Pin</a></div></div>");jQuery(".delivery-not-available a").attr("href", "' . $checkout_url . '");</script>';
-
             }
         
             
         }
         else{
             
-            $script = '<script>jQuery(".woocommerce-checkout").prepend("<div class=delivery-not-available><div class=dna-containt><div class=title baloo-font>We are Sorry!<span>As of now we do not serve in your area.</span></div><p>But we are planning to exceed in some areas.<br>We will let you know the update about it.</p><p>You may remove mango from cart and continue <br> purchase other than mango product</p><a class=baloo-font >View cart</a><a class=baloo-font >Check another Pin</a></div></div>");jQuery(".delivery-not-available a").eq(0).attr("href", "' . $cart_url . '");jQuery(".delivery-not-available a").eq(1).attr("href", "' . $checkout_url . '");</script>';
+            $script = '<script>jQuery(".woocommerce-checkout").prepend("<div class=delivery-not-available><div class=dna-containt><div class=title baloo-font>We are Sorry!<span>As of now we do not serve in your area.</span></div><p>But we are planning to exceed in some areas.<br>We will let you know the update about it.</p><a class=baloo-font>Check another Pin</a></div></div>");jQuery(".delivery-not-available a").attr("href", "' . $checkout_url . '");</script>';
         }
         
         
@@ -733,53 +712,9 @@ function change_tax_class_based_on_delivery_method($cart) {
     /* if(WC()->cart->get_cart_contents_count()>0 && WC()->session->get( 'shipping_calculated_cost')){
       $woocommerce->cart->add_fee( __('Shipping', 'woocommerce'), WC()->cart->get_cart_contents_count()*WC()->session->get( 'shipping_calculated_cost'));
       } */
-
-      
-      global $woocommerce;
-      $items = $woocommerce->cart->get_cart();
-      $item_count=0;
-      $item_weight = 0;
-      $nitem_total = 0;
-      $ditem_total = 1000;
-        $d_weight = .5;
-        $d_fee = 60;
-        $shipping_charge= 0;
     if (WC()->session->get('shipping_calculated_cost')) {
-
-        foreach($items as $item => $values) {
-            if($values['product_id']==14){
-                $item_count+=$values['quantity'];
-            } 
-            
-        }
-        
-        if($item_count > 0){
-            // $woocommerce->cart->add_fee(__('Shipping', 'woocommerce'), WC()->session->get('shipping_calculated_cost'));
-            $shipping_charge  +=  WC()->session->get('shipping_calculated_cost');
-        }
-
+        $woocommerce->cart->add_fee(__('Shipping', 'woocommerce'), WC()->session->get('shipping_calculated_cost'));
     }
-
-        //echo '<pre>';
-        // print_r();
-        // echo '</pre>';
-        foreach($items as $item => $values) {
-            if($values['product_id']==14){
-                $item_count+=$values['quantity'];
-            } 
-            else{
-                $item_weight += $values['data']->get_weight() * $values['quantity'];
-                $nitem_total +=$values['line_subtotal'];
-        
-            }
-        }
-        
-        if($item_weight > 0 && $nitem_total < $ditem_total){
-            $shipping_charge += ceil($item_weight/$d_weight)*60;
-           
-        }
-
-        $woocommerce->cart->add_fee(__('Shipping', 'woocommerce'), $shipping_charge);
 }
 
 function pmnm_count_tax() {
@@ -1491,16 +1426,12 @@ function seccow_send_email($order_id, $old_status, $new_status, $order) {
                         </tbody>
                         </table>
                         </div>';
-        if(get_post_meta($order->get_id(),"nmpm_fail_notification",true)!='sent' &&  (date("Y-m-d H:i:s",strtotime("+1 day",strtotime($order->get_date_created()))) > date("Y-m-d H:i:s"))){
-            update_post_meta($order->get_id(),"nmpm_fail_notification",'sent');
         wp_mail($email_cliente, 'Devgad Mango Order failed! You are just one step away!', $emsg, $headers);
         /** Start SMS Integration */
         $mobile_number = $order->billing_phone;
         $message .= 'Order failed.';
         $message .= 'You can repay with the following URL: ' . $pay_now_url;
         send_sms($mobile_number, $message);
-        
-        }
         /** End SMS Integration */
     } else if ($new_status == 'cancelled') {
         $order = new WC_Order($order_id);
@@ -1522,10 +1453,8 @@ function seccow_send_email($order_id, $old_status, $new_status, $order) {
             $product = wc_get_product($item['variation_id']);
             // var_dump($product->get_attributes());
             // var_dump($product->get_attribute('dispatch-week'));
-            if( $product_variation_id){
             $dispatch_week = $product->get_attribute('dispatch-week');
             $order_size = $product->get_attribute('size');
-			}
         }
 
         /** Start SMS Integration */
@@ -2137,7 +2066,7 @@ function cart_details(){
     $cart_details = [];
     $cart_details['cart_total'] = number_format($cart_total_without_currency);
 	$cart_details['cart_total_amount'] = $cart_total_without_currency;
-   //$cart_details['cart_total_with_currency'] = $cart_total;
+    //$cart_details['cart_total_with_currency'] = $cart_total;
 
     $pq = 0; //Products
     foreach ($items as $item => $values) {
@@ -2501,7 +2430,7 @@ function add_2k_discount( $cart ) {
 
 /*
  * New orders BCC emails
-
+ 
 function nmpm_admin_bcc_emails( $headers, $object ) {
 	// email types/objects to add bcc to
 	$add_bcc_to = array(
@@ -2537,14 +2466,13 @@ function nm_remove_attributes( $attributes ) {
 			unset($dates[4]);
 			unset($dates[5]);
 			unset($dates[6]);
-			unset($dates[7]);
             $attributes['dispatch-week']['options']=$dates;
         }
         
     }
     return $attributes;
 }
-//add_filter( 'woocommerce_product_get_attributes', 'nm_remove_attributes' );
+add_filter( 'woocommerce_product_get_attributes', 'nm_remove_attributes' );
 
 add_filter( 'gform_notification_2', 'attach_vcf_file', 10, 3 );
 function attach_vcf_file( $notification, $form, $entry ) {
@@ -2687,10 +2615,6 @@ function bbloomer_conversion_tracking_thank_you_page($order_id ) {
           'send_to': 'AW-658983232/yJblCL21mMoBEMCSnboC',
           'transaction_id': "<?php echo $order_id; ?>"
       });
-	gtag('event', 'conversion', {
-      	'send_to': 'AW-658983232/ftl3CJaPuM8BEMCSnboC',
-    	'transaction_id': "<?php echo $order_id; ?>"
-  	});
     </script>
     <?php
 }
@@ -2717,7 +2641,7 @@ function change_wallet_bitecoins( $translated_text, $text, $domain ) {
 
 		case 'Via wallet' :
 
-			$translated_text = __( 'Via Balance', 'woo-wallet' );
+			$translated_text = __( 'Via BiteCoins', 'woo-wallet' );
 			break;
 
 	}
@@ -2768,528 +2692,4 @@ function custom_validation( $validation_result ) {
     $validation_result['form'] = $form;
     return $validation_result;
  
-}
-
-//test
-
-// irshad
-
-// https://www.wpbeginner.com/wp-themes/how-to-add-dynamic-widget-ready-sidebars-in-wordpress/
-// Dynamic Widget | Register Sidebar
-
-function wpb_widgets_init() {
-
-    register_sidebar(array(
-        'name' => __('Product Sidebar', 'wpb'),
-        'id' => 'product-sidebar',
-        'description' => __('Appears on the static front page template', 'wpb'),
-        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-        'after_widget' => '</aside>',
-        'before_title' => '<h3 class="widget-title">',
-        'after_title' => '</h3>',
-    ));
-
-}
-
-add_action('widgets_init', 'wpb_widgets_init');
-
-
-function wpb_widgets_init_search() {
-
-    register_sidebar(array(
-        'name' => __('Product Searchbar', 'wpb'),
-        'id' => 'product-searchbar',
-        'description' => __('Appears on the static front page template', 'wpb'),
-        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-        'after_widget' => '</aside>',
-        'before_title' => '<h3 class="widget-title">',
-        'after_title' => '</h3>',
-    ));
-}
-
-add_action('widgets_init', 'wpb_widgets_init_search');
-
-
-function variation_radio_buttons($html, $args) {
-    $args = wp_parse_args(apply_filters('woocommerce_dropdown_variation_attribute_options_args', $args), array(
-      'options'          => false,
-      'attribute'        => false,
-      'product'          => false,
-      'selected'         => false,
-      'name'             => '',
-      'id'               => '',
-      'class'            => '',
-      'show_option_none' => __('Choose an option', 'woocommerce'),
-   ));
-  
-    if(false === $args['selected'] && $args['attribute'] && $args['product'] instanceof WC_Product) {
-      $selected_key     = 'attribute_'.sanitize_title($args['attribute']);
-      $args['selected'] = isset($_REQUEST[$selected_key]) ? wc_clean(wp_unslash($_REQUEST[$selected_key])) : $args['product']->get_variation_default_attribute($args['attribute']);
-    }
-  
-    $options               = $args['options'];
-    $product               = $args['product'];
-    $attribute             = $args['attribute'];
-    $name                  = $args['name'] ? $args['name'] : 'attribute_'.sanitize_title($attribute);
-    $id                    = $args['id'] ? $args['id'] : sanitize_title($attribute);
-    $class                 = $args['class'];
-    $show_option_none      = (bool)$args['show_option_none'];
-    $show_option_none_text = $args['show_option_none'] ? $args['show_option_none'] : __('Choose an option', 'woocommerce');
-  
-    if(empty($options) && !empty($product) && !empty($attribute)) {
-      $attributes = $product->get_variation_attributes();
-      $options    = $attributes[$attribute];
-    }
-  
-    $radios = '<div class="variation-radios">';
-  
-    if(!empty($options)) {
-      if($product && taxonomy_exists($attribute)) {
-        $terms = wc_get_product_terms($product->get_id(), $attribute, array(
-          'fields' => 'all',
-        ));
-  
-        foreach($terms as $term) {
-          if(in_array($term->slug, $options, true)) {
-            $radios .= '<input type="radio" name="'.esc_attr($name).'" value="'.esc_attr($term->slug).'" '.checked(sanitize_title($args['selected']), $term->slug, false).'><label for="'.esc_attr($term->slug).'">'.esc_html(apply_filters('woocommerce_variation_option_name', $term->name)).'</label>';
-          }
-        }
-      } else {
-        foreach($options as $option) {
-          $checked    = sanitize_title($args['selected']) === $args['selected'] ? checked($args['selected'], sanitize_title($option), false) : checked($args['selected'], $option, false);
-          $radios    .= '<input type="radio" name="'.esc_attr($name).'" value="'.esc_attr($option).'" id="'.sanitize_title($option).'" '.$checked.'><label for="'.sanitize_title($option).'">'.esc_html(apply_filters('woocommerce_variation_option_name', $option)).'</label>';
-        }
-      }
-    }
-  
-    $radios .= '</div>';
-  
-    return $html.$radios;
-  }
-  
-  
-  /**
-   * Remove product content based on category
-   */
-  add_action( 'wp', 'remove_product_content' );
-  function remove_product_content() {
-      // If a product in the 'Cookware' category is being viewed...
-      if ( is_product() && has_term( 'mangos', 'product_cat' ) ) {
-          //... Remove
-  
-      remove_action('woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20);
-      add_action('woocommerce_after_single_product_summary', 'woocommerce_output_product_side_calaculation', 10);
-  
-  
-          // For a full list of what can be removed please see woocommerce-hooks.php
-      }
-      else{
-          add_filter('woocommerce_dropdown_variation_attribute_options_html', 'variation_radio_buttons', 20, 2);
-          add_action( 'woocommerce_before_single_product', 'move_variations_single_price', 1 );
-  
-  
-      }
-  }
-  
-  // Utility function to get the default variation (if it exist)
-  function get_default_variation( $product ){
-      $attributes_count = count($product->get_variation_attributes());
-      $default_attributes = $product->get_default_attributes();
-      // If no default variation exist we exit
-      if( $attributes_count != count($default_attributes) )
-          return false;
-  
-      // Loop through available variations
-      foreach( $product->get_available_variations() as $variation ){
-          $found = true;
-          // Loop through variation attributes
-          foreach( $variation['attributes'] as $key => $value ){
-              $taxonomy = str_replace( 'attribute_', '', $key );
-              // Searching for a matching variation as default
-              if( isset($default_attributes[$taxonomy]) && $default_attributes[$taxonomy] != $value ){
-                  $found = false;
-                  break;
-              }
-          }
-          // If we get the default variation
-          if( $found ) {
-              $default_variaton = $variation;
-              break;
-          }
-          // If not we continue
-          else {
-              continue;
-          }
-      }
-      return isset($default_variaton) ? $default_variaton : false;
-  }
-  
-  
-  function move_variations_single_price(){
-      global $product, $post;
-  
-      if ( $product->is_type( 'variable' ) ) {
-          // removing the variations price for variable products
-          remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
-  
-          // Change location and inserting back the variations price
-          add_action( 'woocommerce_single_product_summary', 'replace_variation_single_price', 10 );
-      }
-  }
-  
-  function replace_variation_single_price(){
-      global $product;
-  
-      // Main Price
-      $prices = array( $product->get_variation_price( 'min', true ), $product->get_variation_price( 'max', true ) );
-      $active_price = $prices[0] !== $prices[1] ? sprintf( __( ' %1$s', 'woocommerce' ), wc_price( $prices[0] ) ) : wc_price( $prices[0] );
-  
-      // Sale Price
-      $prices = array( $product->get_variation_regular_price( 'min', true ), $product->get_variation_regular_price( 'max', true ) );
-      sort( $prices );
-      $regular_price = $prices[0] !== $prices[1] ? sprintf( __( ' %1$s', 'woocommerce' ), wc_price( $prices[0] ) ) : wc_price( $prices[0] );
-  
-      if ( $active_price !== $regular_price && $product->is_on_sale() ) {
-          $price = '<del>' . $regular_price . $product->get_price_suffix() . '</del> <ins>' . $active_price . $product->get_price_suffix() . '</ins>';
-      } else {
-          $price = $regular_price;
-      }
-  
-      // When a default variation is set for the variable product
-      if( get_default_variation( $product ) ) {
-          $default_variaton = get_default_variation( $product );
-          if( ! empty($default_variaton['price_html']) ){
-              $price_html = $default_variaton['price_html'];
-          } else {
-              if ( ! $product->is_on_sale() )
-                  $price_html = $price = wc_price($default_variaton['display_price']);
-              else
-                  $price_html = $price;
-          }
-          $availiability = $default_variaton['availability_html'];
-      } else {
-          $price_html = $price;
-          $availiability = '';
-      }
-      // Styles ?>
-      <style>
-          div.woocommerce-variation-price,
-          div.woocommerce-variation-availability,
-          div.hidden-variable-price {
-              height: 0px !important;
-              overflow:hidden;
-              position:relative;
-              line-height: 0px !important;
-              font-size: 0% !important;
-          }
-      </style>
-      <?php // Jquery ?>
-      <script>
-      jQuery(document).ready(function($) {
-          var a = 'div.wc-availability', p = 'p.price';
-  
-          $('input.variation_id').change( function(){
-              if( '' != $('input.variation_id').val() ){
-                  if($(a).html() != '' ) $(a).html('');
-                  $(p).html($('div.woocommerce-variation-price > span.price').html());
-                  $(a).html($('div.woocommerce-variation-availability').html());
-              } else {
-                  if($(a).html() != '' ) $(a).html('');
-                  $(p).html($('div.hidden-variable-price').html());
-              }
-          });
-      });
-      </script>
-      <?php
-  
-      echo '<p class="price">'.$price_html.'</p>
-      <div class="wc-availability">'.$availiability.'</div>
-      <div class="hidden-variable-price" >'.$price.'</div>';
-  }
-  
-  function buy_now_submit_form() {
-   ?>
-    <script>
-        jQuery(document).ready(function(){
-            // listen if someone clicks 'Buy Now' button
-            jQuery('#buy_now_button').click(function(){
-                // set value to 1
-                jQuery('#is_buy_now').val('1');
-                //submit the form
-                jQuery('form.cart').submit();
-            });
-        });
-    </script>
-   <?php
-  }
-  add_action('woocommerce_after_add_to_cart_form', 'buy_now_submit_form');
-  add_filter('woocommerce_add_to_cart_redirect', 'redirect_to_checkout');
-  function redirect_to_checkout($redirect_url) {
-    if (isset($_REQUEST['is_buy_now']) && $_REQUEST['is_buy_now']) {
-       global $woocommerce;
-       $redirect_url = wc_get_checkout_url();
-    }
-    return $redirect_url;
-  }
-  
-  //cart name
-  
-  
-  add_filter( 'woocommerce_cart_item_name', 'custom_variation_item_name', 10, 3 );
-  function custom_variation_item_name( $item_name,  $cart_item,  $cart_item_key ){
-      // Change item name only if is a product variation
-      if( $cart_item['data']->is_type('variation') && $cart_item['product_id'] == 14   ){
-          // HERE customize item name
-        //   $item_name = __('<span class="pName">Mango ' .  $cart_item['variation']['attribute_size'] . ' </span><small>per Dz.</small>');
-         //var_dump($cart_item);
-          // For cart page we add back the product link
-        //   if(is_cart())
-        //       $item_name = sprintf( $item_name );
-      } else {
-          $product = wc_get_product( $cart_item['product_id'] );
-  
-          $item_name = __( $product->get_title().' '. '<small class="d-block">'.$cart_item['data']->attribute_summary . '</small>');
-      }
-      
-      return $item_name;
-  }
-  // add_filter( 'woocommerce_order_item_name', 'custom_variation_item_name1', 10, 3 );
-  // function custom_variation_item_name1( $item_name,  $cart_item ){
-  
-  //     //var_dump($cart_item);
-  //     // Change item name only if is a product variation
-  //     if( $cart_item->get_variation_id() > 0 && $cart_item['product_id'] == 14   ){
-  //         // HERE customize item name
-  //         $item_name = __('<span class="pName">Mango ' .  $cart_item['variation']['attribute_size'] . ' </span><small>per Dz.</small>');
-  //        //var_dump($cart_item);
-  //         // For cart page we add back the product link
-  //         if(is_cart())
-  //             $item_name = sprintf( $item_name );
-  //     }
-  //     return $item_name;
-  // }
-  
- 
-  
-  // Checking and validating when updating cart item quantities when products are added to cart
-  add_filter( 'woocommerce_update_cart_validation', 'only_six_items_allowed_cart_update', 10, 4 );
-  function only_six_items_allowed_cart_update( $passed, $cart_item_key, $values, $updated_quantity ) {
-  
-      $cart_items_count = WC()->cart->get_cart_contents_count();
-      $original_quantity = $values['quantity'];
-      $total_count = $cart_items_count - $original_quantity + $updated_quantity;
-      if( $values['product_id'] == 14){
-          // if( $cart_items_count > 10 || $total_count > 10 ){
-          if( $updated_quantity > 10  ){
-              // Set to false
-              $passed = false;
-              // Display a message
-               wc_add_notice( __( "You can only order 10 Dozen of the same mango grade in the same week." ), "error" );
-          }
-      }
-      
-      return $passed;
-  }
-  
-  function is_in_cart( $ids ) {
-      // Initialise
-      $found = false;
-  
-      // Loop through cart items
-      foreach( WC()->cart->get_cart() as $cart_item ) {
-          // For an array of product IDs
-          if( is_array($ids) && ( in_array( $cart_item['product_id'], $ids ) || in_array( $cart_item['variation_id'], $ids ) ) ){
-              $found = true;
-              break;
-          }
-          // For a unique product ID (integer or string value)
-          elseif( ! is_array($ids) && ( $ids == $cart_item['product_id'] || $ids == $cart_item['variation_id'] ) ){
-              $found = true;
-              break;
-          }
-      }
-  
-      return $found;
-  }
-  
-  /**
-   * @snippet       Change "Place Order" Button text @ WooCommerce Checkout
-   * @sourcecode    https://rudrastyh.com/?p=8327#woocommerce_order_button_text
-   * @author        Misha Rudrastyh
-   */
-  add_filter( 'woocommerce_order_button_text', 'misha_custom_button_text' );
-   
-  function misha_custom_button_text( $button_text ) {
-     return 'Proceed to Pay'; // new text is here 
-  }
-  
-  add_filter( 'woocommerce_add_to_cart_fragments', function($fragments) {
-  
-      ob_start();
-      ?>
-     
-    <?php
-    global $woocommerce;
-    $pmn_items = $woocommerce->cart->get_cart();
-    $pmn_item_count = count($pmn_items);
-    ?>
-    <p class="pmn-header-cart-count" style="display: none !important;"><?php echo $pmn_item_count; ?></p>
-    <?php //the_widget('WC_Widget_Cart', 'title='); ?>
-                                          
-      
-  
-      <?php $fragments['.pmn-header-cart-count'] = ob_get_clean();
-  
-      return $fragments;
-  
-  } );
-  
-  add_filter('woocommerce_currency_symbol', 'inr_currency_symbol', 10, 2);
-  
-  function inr_currency_symbol( $currency_symbol, $currency ) {
-      switch( $currency ) {
-          case 'INR': $currency_symbol = '&#8377;';
-              break;
-      }
-      return $currency_symbol;
-  }
-  
-  // prodct limit
-  add_filter( 'loop_shop_per_page', 'new_loop_shop_per_page', 20 );
-  
-  function new_loop_shop_per_page( $cols ) {
-    // $cols contains the current number of products per page based on the value stored on Options -> Reading
-    // Return the number of products you wanna show per page.
-    $cols = 9;
-    return $cols;
-  }
-  
-  // change drowpdown text
-    
-  add_filter( 'woocommerce_catalog_orderby', 'bbloomer_rename_sorting_option_woocommerce_shop' );
-    
-  function bbloomer_rename_sorting_option_woocommerce_shop( $options ) {
-     $options['menu_order'] = 'Sort By';   
-     return $options;
-  }
-
-
-  /**
-* @snippet       Remove Sorting Option @ WooCommerce Shop
-* @how-to        Get CustomizeWoo.com FREE
-* @author        Rodolfo Melogli
-* @testedwith    WooCommerce 3.8
-* @donate $9     https://businessbloomer.com/bloomer-armada/
-*/
-  
-add_filter( 'woocommerce_catalog_orderby', 'bbloomer_remove_sorting_option_woocommerce_shop' );
-  
-function bbloomer_remove_sorting_option_woocommerce_shop( $options ) {
-   unset( $options['rating'] );   
-   unset( $options['popularity'] );   
-   return $options;
-}
-  
-// Note: you can unset other sorting options by adding more "unset" calls... here's the list: 'menu_order', 'popularity', 'rating', 'date', 'price', 'price-desc'
-
-
-add_filter( 'gettext', 'change_cart_totals_text', 20, 3 );
-function change_cart_totals_text( $translated, $text, $domain ) {
-    if( is_cart() && $translated == 'Cart totals' ){
-        $translated = __('Cart Total', 'woocommerce');
-    }
-    return $translated;
-}
-
-function better_woocommerce_search_result_title( $page_title )
-{
-	if ( is_search() ) {
-		if (! get_search_query()) {
-			$page_title = sprintf( __( 'Search Results: “All Products”', 'woocommerce' ), get_search_query() );
-		} else {
-			$page_title = sprintf( __( 'You searched for &nbsp;“%s”', 'woocommerce' ), get_search_query() );
-		}
-	}
-	return $page_title;
-}
-
-// add the filter
-add_filter( 'woocommerce_page_title', 'better_woocommerce_search_result_title', 10, 1 );
-
-
-function nm_action_woocommerce_before_cart_table(  ) { 
-	if(is_shop()){
-	do_action( 'woocommerce_before_single_product' );
-	}
-    echo '<p style="margin-top:10px;">Enjoy the original Devgad Alphonso Aamras! <b>Delivery starting from 7th July 2021.</b></p>';
-}; 
-add_action( 'woocommerce_before_cart_table', 'nm_action_woocommerce_before_cart_table', 10, 0 );
-add_action( 'woocommerce_archive_description', 'nm_action_woocommerce_before_cart_table', 10, 0 );
-
-add_filter('woocommerce_default_catalog_orderby', 'nmmisha_default_catalog_orderby');
- 
-function nmmisha_default_catalog_orderby( $sort_by ) {
-	return 'price-desc';
-}
-
-add_action( 'woocommerce_after_order_object_save', 'custom_export_pending_order_data' );
-
-function custom_export_pending_order_data( $order ) {
-   $order_id= $order->get_id();
-    //$order = new WC_Order($order_id);
-	$user = $order->get_user();
-	
-	if( !$user ){
-		$order_data = $order->get_data();
-		if($user=email_exists($order_data['billing']['email'])){
-			update_post_meta($order_id, '_customer_user', $user );
-			 
-		}else{
-			//echo '#'.$order_id.' '.$order_data['billing']['email']."<br/>";
-			$user = wp_insert_user( array(
-			  'user_login' => $order_data['billing']['email'],
-			  'user_email' => $order_data['billing']['email'],
-			  'first_name' => $order_data['billing']['first_name'],
-			  'last_name' => $order_data['billing']['last_name'],
-			  'display_name' => $order_data['billing']['first_name'],
-			  'role' => 'subscriber'
-			));
-			update_post_meta($ord->ID, '_customer_user', $user );
-		}
-	}
-}
-
-/*************************************/
-add_filter( 'gform_entry_meta', function ( $entry_meta, $form_id ) {
-    $fields = array('utm_source','utm_medium','utm_term', 'utm_content', 'utm_campaign', 'gclid', 'handl_original_ref', 'handl_landing_page', 'handl_ip', 'handl_ref', 'handl_url', 'zoho_api_status');
-	foreach ($fields as $field){
-    
-        $entry_meta[$field] = array(
-            'label'                      => $field,
-            'is_numeric'                 => false,
-            'update_entry_meta_callback' => 'nmpm_update_entry_meta_test',
-            'is_default_column'          => false,
-            'filter'                     => array(
-                'key'       => $field,
-                'text'      => $field,
-                'operators' => array(
-                    'is',
-                    'isnot',
-                )
-            ),
-        );
-	}
- 
-    return $entry_meta;
-}, 10, 2 );
- 
-function nmpm_update_entry_meta_test( $key, $entry, $form ){
-    $value = "";
-    $fields = array('utm_source','utm_medium','utm_term', 'utm_content', 'utm_campaign', 'gclid', 'handl_original_ref', 'handl_landing_page', 'handl_ip', 'handl_ref', 'handl_url');
-	foreach ($fields as $field){
-	    if($key==$field && isset($_COOKIE[$field]) && $_COOKIE[$field] != ''){
-	        $value=esc_attr($_COOKIE[$field]);
-	    }
-	}
-    return $value;
 }
