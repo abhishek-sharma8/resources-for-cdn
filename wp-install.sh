@@ -57,6 +57,9 @@ sudo chown -R www-data:www-data "$WEBROOT"
 sudo find "$WEBROOT" -type d -exec chmod 755 {} \;
 sudo find "$WEBROOT" -type f -exec chmod 644 {} \;
 
+# Cleanup
+rm -rf /tmp/latest.tar.gz /tmp/wordpress
+
 echo
 echo "WordPress setup complete!"
 echo "Visit https://$DOMAIN to finish installation in your browser."
