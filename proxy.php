@@ -1,92 +1,75 @@
 <?php
-// index.php
 
-// Define the environment variable name
-const PROXY_URL_ENV_VAR = 'CAPROVER_APP_PUBLIC_URL';
-
-// Get the public URL of the CapRover app from the environment variable.
-// IMPORTANT: This variable MUST be set in your CapRover app's environment config.
-$caproverAppPublicUrl = getenv(PROXY_URL_ENV_VAR);
-
-if (empty($caproverAppPublicUrl)) {
-    // Log an error and exit if the environment variable is not set.
-    // In a real application, you might want more sophisticated logging.
-    error_log("Error: Environment variable " . PROXY_URL_ENV_VAR . " is not set. Cannot determine PROXY_URL_PREFIX.");
-    http_response_code(500); // Internal Server Error
-    header('Content-Type: text/plain');
-    echo 'Server configuration error: Proxy URL prefix is not defined. Please contact support.';
-    exit;
-}
-
-// Construct the PROXY_URL_PREFIX dynamically
-// Ensure it ends with /?url= as expected by your parsing logic
-const PROXY_URL_PREFIX_SUFFIX = '/?url=';
-$proxyUrlPrefix = rtrim($caproverAppPublicUrl, '/') . PROXY_URL_PREFIX_SUFFIX; // Remove trailing slash if present, then add suffix
+<?php
+const PROXY_URL_PREFIX = 'CAPROVER_APP_PUBLIC_URL';
+$caproverAppPublicUrl = getenv(PROXY_URL_PREFIX);
 
 // Define the MIME type for an M3U8 playlist.
 const PLAYLIST_MIME_TYPE = 'application/vnd.apple.mpegurl';
 
-// Set CORS headers.
-// These can also be handled by Nginx in CapRover if you prefer.
+// Set CORS header to allow requests from any origin.
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type');
-header('Access-Control-Max-Age: 86400');
-
-// Handle OPTIONS preflight requests
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    http_response_code(204);
-    exit;
-}
 
 // Get the original playlist URL from the 'playlist' query parameter.
 $playlistUrl = $_GET['playlist'] ?? null;
 
 // Validate the playlist URL.
 if (empty($playlistUrl) || !filter_var($playlistUrl, FILTER_VALIDATE_URL)) {
-    http_response_code(400);
+    http_response_code(400); // Bad Request
     header('Content-Type: text/plain');
     echo 'Invalid or missing "playlist" query parameter. Please provide a full URL like `/?playlist=https://original-domain.com/path/to/playlist.m3u8`';
     exit;
 }
 
 try {
-    // Fetch the original M3U8 playlist content.
     $playlistText = @file_get_contents($playlistUrl);
 
+    // Check if fetching the playlist was successful.
     if ($playlistText === false) {
-        http_response_code(500);
+        http_response_code(500); // Internal Server Error
         header('Content-Type: text/plain');
         echo "Failed to fetch playlist from: " . htmlspecialchars($playlistUrl);
         exit;
     }
 
+    // Basic validation to ensure it's an M3U8 playlist.
     if (!str_starts_with($playlistText, '#EXTM3U')) {
-        http_response_code(400);
+        http_response_code(400); // Bad Request
         header('Content-Type: text/plain');
         echo 'Not a valid M3U8 playlist format.';
         exit;
     }
 
+    // Split the playlist into individual lines.
     $lines = explode("\n", $playlistText);
 
-    $modifiedLines = array_map(function($line) use ($proxyUrlPrefix) { // Pass $proxyUrlPrefix into the closure
-        if (str_starts_with($line, $proxyUrlPrefix)) {
-            $originalEncodedUrl = substr($line, strlen($proxyUrlPrefix));
+    // Process each line to remove the proxy prefix from chunk URLs.
+    $modifiedLines = array_map(function($line) {
+        // Check if the line starts with the specified proxy URL prefix.
+        if (str_starts_with($line, PROXY_URL_PREFIX)) {
+            // Extract the part of the URL after the proxy prefix.
+            $originalEncodedUrl = substr($line, strlen(PROXY_URL_PREFIX));
+            // Attempt to URL-decode the extracted part, as it might be encoded.
+            // urldecode() is safe here as it will not double-decode already decoded parts.
             return urldecode($originalEncodedUrl);
         }
-        return $line;
+        return $line; // Return unchanged if not a chunk URL with the prefix.
     }, $lines);
 
+    // Join the modified lines back into a single playlist string.
     $modifiedPlaylistText = implode("\n", $modifiedLines);
 
+    // Set the correct MIME type for M3U8 playlist.
     header('Content-Type: ' . PLAYLIST_MIME_TYPE);
+
+    // Output the modified playlist.
     echo $modifiedPlaylistText;
 
 } catch (Exception $e) {
-    http_response_code(500);
+    // Catch any unexpected errors during processing.
+    http_response_code(500); // Internal Server Error
     header('Content-Type: text/plain');
-    error_log("Playlist proxy error: " . $e->getMessage());
+    error_log("Playlist proxy error: " . $e->getMessage()); // Log the error to your server logs
     echo 'Playlist proxy error: An unexpected error occurred.';
     exit;
 }
