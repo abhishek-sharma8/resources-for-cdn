@@ -1,0 +1,7134 @@
+[
+    {
+        "key": {
+            "i": 1,
+            "n": "English Movies (HD)",
+            "ne": "English-Movies-HD",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 692,
+                "n": "And Prive HD",
+                "d": null,
+                "pu": "692.png",
+                "ne": "And-Prive-HD",
+                "cci": 1,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 700,
+                "n": "AndFlix HD",
+                "d": null,
+                "pu": "700.png",
+                "ne": "AndFlix-HD",
+                "cci": 1,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1,
+                "n": "MN\u002B HD",
+                "d": null,
+                "pu": "1.png",
+                "ne": "MN-HD",
+                "cci": 1,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 30,
+                "n": "Movies Now HD",
+                "d": null,
+                "pu": "30.webp",
+                "ne": "Movies-Now-HD",
+                "cci": 1,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 695,
+                "n": "Romedy Now HD",
+                "d": null,
+                "pu": "695.png",
+                "ne": "Romedy-Now-HD",
+                "cci": 1,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 28,
+                "n": "Sony Pix HD",
+                "d": null,
+                "pu": "28.webp",
+                "ne": "Sony-Pix-HD",
+                "cci": 1,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 5,
+                "n": "Star Movies Select HD",
+                "d": null,
+                "pu": "5.png",
+                "ne": "Star-Movies-Select-HD",
+                "cci": 1,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 2,
+            "n": "Hindi Movies (HD)",
+            "ne": "Hindi-Movies-HD",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1377,
+                "n": "\u0026Xplor HD",
+                "d": null,
+                "pu": "1377.webp",
+                "ne": "Xplor-HD",
+                "cci": 2,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 20,
+                "n": "And Pictures HD",
+                "d": null,
+                "pu": "20.png",
+                "ne": "And-Pictures-HD",
+                "cci": 2,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1280,
+                "n": "Colors Cineplex HD",
+                "d": null,
+                "pu": "1280.jpg",
+                "ne": "Colors-Cineplex-HD",
+                "cci": 2,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 31,
+                "n": "Sony Max HD",
+                "d": null,
+                "pu": "31.webp",
+                "ne": "Sony-Max-HD",
+                "cci": 2,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1400,
+                "n": "Star Gold 2 HD",
+                "d": null,
+                "pu": "1400.webp",
+                "ne": "Star-Gold-2-HD",
+                "cci": 2,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1599,
+                "n": "Star GOLD HD",
+                "d": null,
+                "pu": null,
+                "ne": "Star-GOLD-HD",
+                "cci": 2,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 7,
+                "n": "Zee Cinema HD",
+                "d": null,
+                "pu": "7.png",
+                "ne": "Zee-Cinema-HD",
+                "cci": 2,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 3,
+            "n": "English Movies",
+            "ne": "English-Movies",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1551,
+                "n": "And Flix",
+                "d": null,
+                "pu": "1551.webp",
+                "ne": "And-Flix",
+                "cci": 3,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 694,
+                "n": "MNX",
+                "d": null,
+                "pu": "694.png",
+                "ne": "MNX",
+                "cci": 3,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1562,
+                "n": "Movies Now",
+                "d": null,
+                "pu": "1562.webp",
+                "ne": "Movies-Now",
+                "cci": 3,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1540,
+                "n": "SONY PIX",
+                "d": null,
+                "pu": "1540.jpg",
+                "ne": "SONY-PIX",
+                "cci": 3,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1373,
+                "n": "Star Gold Thrills",
+                "d": null,
+                "pu": "1373.webp",
+                "ne": "Star-Gold-Thrills",
+                "cci": 3,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 141,
+                "n": "Star Movies",
+                "d": null,
+                "pu": "141.png",
+                "ne": "Star-Movies",
+                "cci": 3,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1592,
+                "n": "Tata Play Hollywood Local",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Hollywood-Local",
+                "cci": 3,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 4,
+            "n": "Hindi Movies",
+            "ne": "Hindi-Movies",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 21,
+                "n": "Action Cinema",
+                "d": null,
+                "pu": "21.png",
+                "ne": "Action-Cinema",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1378,
+                "n": "ALL Time MOVIES",
+                "d": null,
+                "pu": "1378.webp",
+                "ne": "ALL-Time-MOVIES",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 8,
+                "n": "And Pictures",
+                "d": null,
+                "pu": "8.png",
+                "ne": "And-Pictures",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 22,
+                "n": "B4U Movies",
+                "d": null,
+                "pu": "22.png",
+                "ne": "B4U-Movies",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 673,
+                "n": "Bflix Movies",
+                "d": null,
+                "pu": "673.webp",
+                "ne": "Bflix-Movies",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1369,
+                "n": "Colors Cineplex Superhits",
+                "d": null,
+                "pu": "1369.webp",
+                "ne": "Colors-Cineplex-Superhits",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 664,
+                "n": "Enterr10 Movies",
+                "d": null,
+                "pu": "664.png",
+                "ne": "Enterr10-Movies",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1557,
+                "n": "Goldmines Movies",
+                "d": null,
+                "pu": "1557.webp",
+                "ne": "Goldmines-Movies",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 12,
+                "n": "Sony Max",
+                "d": null,
+                "pu": "12.webp",
+                "ne": "Sony-Max",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 23,
+                "n": "Sony Max 2",
+                "d": null,
+                "pu": "23.webp",
+                "ne": "Sony-Max-2",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 13,
+                "n": "Star Gold",
+                "d": null,
+                "pu": "13.png",
+                "ne": "Star-Gold",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 717,
+                "n": "Star Gold 2",
+                "d": null,
+                "pu": "717.png",
+                "ne": "Star-Gold-2",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1372,
+                "n": "Star Gold Romance",
+                "d": null,
+                "pu": "1372.webp",
+                "ne": "Star-Gold-Romance",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1371,
+                "n": "Star Gold Select",
+                "d": null,
+                "pu": "1371.webp",
+                "ne": "Star-Gold-Select",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1543,
+                "n": "Tata Play Classic Cinema",
+                "d": null,
+                "pu": "1543.webp",
+                "ne": "Tata-Play-Classic-Cinema",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1576,
+                "n": "Tata Play Romance",
+                "d": null,
+                "pu": "1576.webp",
+                "ne": "Tata-Play-Romance",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 15,
+                "n": "Zee Cinema",
+                "d": null,
+                "pu": "15.png",
+                "ne": "Zee-Cinema",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 32,
+                "n": "Zee Classic",
+                "d": null,
+                "pu": "32.png",
+                "ne": "Zee-Classic",
+                "cci": 4,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 7,
+            "n": "Hindi Entertainment (HD)",
+            "ne": "Hindi-Entertainment-HD",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 669,
+                "n": "Sony SAB HD",
+                "d": null,
+                "pu": "669.jpg",
+                "ne": "Sony-SAB-HD",
+                "cci": 7,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1398,
+                "n": "Sun Neo HD",
+                "d": null,
+                "pu": "1398.webp",
+                "ne": "Sun-Neo-HD",
+                "cci": 7,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 8,
+            "n": "Hindi Entertainment",
+            "ne": "Hindi-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1994,
+                "n": "22 Scope",
+                "d": null,
+                "pu": null,
+                "ne": "22-Scope",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1703,
+                "n": "4tv News",
+                "d": null,
+                "pu": null,
+                "ne": "4tv-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1672,
+                "n": "Aadinath TV",
+                "d": null,
+                "pu": null,
+                "ne": "Aadinath-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1984,
+                "n": "AB STAR News",
+                "d": null,
+                "pu": null,
+                "ne": "AB-STAR-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1688,
+                "n": "ABP Ananda",
+                "d": null,
+                "pu": null,
+                "ne": "ABP-Ananda",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1804,
+                "n": "ABP Asmita",
+                "d": null,
+                "pu": null,
+                "ne": "ABP-Asmita",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1715,
+                "n": "Anaadi TV",
+                "d": null,
+                "pu": null,
+                "ne": "Anaadi-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1698,
+                "n": "Anand TV",
+                "d": null,
+                "pu": null,
+                "ne": "Anand-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1929,
+                "n": "ANANDHAM TV",
+                "d": null,
+                "pu": null,
+                "ne": "ANANDHAM-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1906,
+                "n": "ANB NEWS",
+                "d": null,
+                "pu": null,
+                "ne": "ANB-NEWS",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1835,
+                "n": "Angel TV",
+                "d": null,
+                "pu": null,
+                "ne": "Angel-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 724,
+                "n": "Anjan TV",
+                "d": null,
+                "pu": "724.jpg",
+                "ne": "Anjan-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2016,
+                "n": "ANN News",
+                "d": null,
+                "pu": null,
+                "ne": "ANN-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1669,
+                "n": "APN News",
+                "d": null,
+                "pu": null,
+                "ne": "APN-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1778,
+                "n": "Aradana TV",
+                "d": null,
+                "pu": null,
+                "ne": "Aradana-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1733,
+                "n": "Asian News",
+                "d": null,
+                "pu": null,
+                "ne": "Asian-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1937,
+                "n": "Assam Talks",
+                "d": null,
+                "pu": null,
+                "ne": "Assam-Talks",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2014,
+                "n": "Atmadarshan",
+                "d": null,
+                "pu": null,
+                "ne": "Atmadarshan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1660,
+                "n": "Awakening",
+                "d": null,
+                "pu": null,
+                "ne": "Awakening",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1863,
+                "n": "Ayush TV",
+                "d": null,
+                "pu": null,
+                "ne": "Ayush-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1773,
+                "n": "Bansal News",
+                "d": null,
+                "pu": null,
+                "ne": "Bansal-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1981,
+                "n": "BHI Channel",
+                "d": null,
+                "pu": null,
+                "ne": "BHI-Channel",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 102,
+                "n": "Big Magic",
+                "d": null,
+                "pu": "102.png",
+                "ne": "Big-Magic",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1959,
+                "n": "Bless TV",
+                "d": null,
+                "pu": null,
+                "ne": "Bless-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1735,
+                "n": "BRK News",
+                "d": null,
+                "pu": null,
+                "ne": "BRK-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1761,
+                "n": "BS TV",
+                "d": null,
+                "pu": null,
+                "ne": "BS-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2005,
+                "n": "C News Bharat",
+                "d": null,
+                "pu": null,
+                "ne": "C-News-Bharat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1796,
+                "n": "Calvary TV",
+                "d": null,
+                "pu": null,
+                "ne": "Calvary-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1840,
+                "n": "CHITHIRAM",
+                "d": null,
+                "pu": null,
+                "ne": "CHITHIRAM",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1402,
+                "n": "Chumbak TV",
+                "d": null,
+                "pu": "1402.webp",
+                "ne": "Chumbak-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1748,
+                "n": "CTVN AKD Plus",
+                "d": null,
+                "pu": null,
+                "ne": "CTVN-AKD-Plus",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1823,
+                "n": "D Tamil",
+                "d": null,
+                "pu": null,
+                "ne": "D-Tamil",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1754,
+                "n": "DA News Plus",
+                "d": null,
+                "pu": null,
+                "ne": "DA-News-Plus",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1936,
+                "n": "Daily Post Punjab Haryana Himachal",
+                "d": null,
+                "pu": null,
+                "ne": "Daily-Post-Punjab-Haryana-Himachal",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 730,
+                "n": "Dangal",
+                "d": null,
+                "pu": "730.jpeg",
+                "ne": "Dangal",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1927,
+                "n": "DD Arunprabha",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Arunprabha",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1842,
+                "n": "DD Chandana",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Chandana",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1777,
+                "n": "DD Chhattisgarh",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Chhattisgarh",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1970,
+                "n": "DD Goa",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Goa",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1633,
+                "n": "DD Gyan Darshan",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Gyan-Darshan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1963,
+                "n": "DD Himachal",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Himachal",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1624,
+                "n": "DD India HD",
+                "d": null,
+                "pu": null,
+                "ne": "DD-India-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1560,
+                "n": "DD Kisan",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Kisan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1934,
+                "n": "DD Manipur",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Manipur",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1954,
+                "n": "DD Meghalaya",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Meghalaya",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1961,
+                "n": "DD Mizoram",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Mizoram",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1967,
+                "n": "DD Nagaland",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Nagaland",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 721,
+                "n": "DD National",
+                "d": null,
+                "pu": "721.png",
+                "ne": "DD-National",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1550,
+                "n": "DD National HD",
+                "d": null,
+                "pu": null,
+                "ne": "DD-National-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1942,
+                "n": "DD North East",
+                "d": null,
+                "pu": null,
+                "ne": "DD-North-East",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1920,
+                "n": "DD Port Blair",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Port-Blair",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1958,
+                "n": "DD Punjabi",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Punjabi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1909,
+                "n": "DD Tamil",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Tamil",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1742,
+                "n": "DD Uttarakhand",
+                "d": null,
+                "pu": null,
+                "ne": "DD-Uttarakhand",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1680,
+                "n": "Dharma Sandesh",
+                "d": null,
+                "pu": null,
+                "ne": "Dharma-Sandesh",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1935,
+                "n": "DHARSAN TV",
+                "d": null,
+                "pu": null,
+                "ne": "DHARSAN-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1653,
+                "n": "DIVYA",
+                "d": null,
+                "pu": null,
+                "ne": "DIVYA",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1661,
+                "n": "DW",
+                "d": null,
+                "pu": null,
+                "ne": "DW",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1951,
+                "n": "DY 365",
+                "d": null,
+                "pu": null,
+                "ne": "DY-365",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1743,
+                "n": "Enterr10 Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "Enterr10-Bangla",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1608,
+                "n": "ETV Bal Bharat",
+                "d": null,
+                "pu": null,
+                "ne": "ETV-Bal-Bharat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1670,
+                "n": "ETV Bal Bharat HD",
+                "d": null,
+                "pu": null,
+                "ne": "ETV-Bal-Bharat-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1998,
+                "n": "Express News Bharat",
+                "d": null,
+                "pu": null,
+                "ne": "Express-News-Bharat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1919,
+                "n": "Fateh TV",
+                "d": null,
+                "pu": null,
+                "ne": "Fateh-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1784,
+                "n": "First India Rajasthan",
+                "d": null,
+                "pu": null,
+                "ne": "First-India-Rajasthan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1985,
+                "n": "Garv Gurbani",
+                "d": null,
+                "pu": null,
+                "ne": "Garv-Gurbani",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1962,
+                "n": "Garvi Gujarat Gujarati",
+                "d": null,
+                "pu": null,
+                "ne": "Garvi-Gujarat-Gujarati",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1751,
+                "n": "Gemini Music",
+                "d": null,
+                "pu": null,
+                "ne": "Gemini-Music",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1971,
+                "n": "Global India",
+                "d": null,
+                "pu": null,
+                "ne": "Global-India",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1586,
+                "n": "Good News Today",
+                "d": null,
+                "pu": null,
+                "ne": "Good-News-Today",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1872,
+                "n": "Goodness",
+                "d": null,
+                "pu": null,
+                "ne": "Goodness",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1955,
+                "n": "Green Chillies TV",
+                "d": null,
+                "pu": null,
+                "ne": "Green-Chillies-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1834,
+                "n": "Guarantee News",
+                "d": null,
+                "pu": null,
+                "ne": "Guarantee-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1664,
+                "n": "Gubbare",
+                "d": null,
+                "pu": null,
+                "ne": "Gubbare",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1685,
+                "n": "Hare Krsna",
+                "d": null,
+                "pu": null,
+                "ne": "Hare-Krsna",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1926,
+                "n": "Haryana Beats",
+                "d": null,
+                "pu": null,
+                "ne": "Haryana-Beats",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2010,
+                "n": "Haryana Buzz",
+                "d": null,
+                "pu": null,
+                "ne": "Haryana-Buzz",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1789,
+                "n": "Hindu Dharmam",
+                "d": null,
+                "pu": null,
+                "ne": "Hindu-Dharmam",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1766,
+                "n": "HM TV",
+                "d": null,
+                "pu": null,
+                "ne": "HM-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1728,
+                "n": "HNN News",
+                "d": null,
+                "pu": null,
+                "ne": "HNN-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1933,
+                "n": "In Goa 24x7",
+                "d": null,
+                "pu": null,
+                "ne": "In-Goa-24x7",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1946,
+                "n": "In24 Live News",
+                "d": null,
+                "pu": null,
+                "ne": "In24-Live-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1997,
+                "n": "In24 News",
+                "d": null,
+                "pu": null,
+                "ne": "In24-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1822,
+                "n": "India News Gujarat",
+                "d": null,
+                "pu": null,
+                "ne": "India-News-Gujarat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1897,
+                "n": "India News Haryana",
+                "d": null,
+                "pu": null,
+                "ne": "India-News-Haryana",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1684,
+                "n": "India News MP CG",
+                "d": null,
+                "pu": null,
+                "ne": "India-News-MP-CG",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1675,
+                "n": "India News Rajasthan",
+                "d": null,
+                "pu": null,
+                "ne": "India-News-Rajasthan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1676,
+                "n": "INH 24X7",
+                "d": null,
+                "pu": null,
+                "ne": "INH-24X7",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1807,
+                "n": "Isaiaruvi",
+                "d": null,
+                "pu": null,
+                "ne": "Isaiaruvi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1749,
+                "n": "Jai Maharashtra",
+                "d": null,
+                "pu": null,
+                "ne": "Jai-Maharashtra",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1683,
+                "n": "Jan TV",
+                "d": null,
+                "pu": null,
+                "ne": "Jan-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1953,
+                "n": "Jansetu",
+                "d": null,
+                "pu": null,
+                "ne": "Jansetu",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1791,
+                "n": "Jaya Max",
+                "d": null,
+                "pu": null,
+                "ne": "Jaya-Max",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1875,
+                "n": "Jeevan TV",
+                "d": null,
+                "pu": null,
+                "ne": "Jeevan-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1673,
+                "n": "Jinvani Channel",
+                "d": null,
+                "pu": null,
+                "ne": "Jinvani-Channel",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1930,
+                "n": "Jonack TV",
+                "d": null,
+                "pu": null,
+                "ne": "Jonack-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1815,
+                "n": "Jothi TV",
+                "d": null,
+                "pu": null,
+                "ne": "Jothi-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1866,
+                "n": "Kairali News",
+                "d": null,
+                "pu": null,
+                "ne": "Kairali-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1904,
+                "n": "Kashi Vishwanath Temple, Varanasi",
+                "d": null,
+                "pu": null,
+                "ne": "Kashi-Vishwanath-Temple-Varanasi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1720,
+                "n": "Kashish News",
+                "d": null,
+                "pu": null,
+                "ne": "Kashish-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1819,
+                "n": "Kaumudy TV",
+                "d": null,
+                "pu": null,
+                "ne": "Kaumudy-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1990,
+                "n": "KBC News",
+                "d": null,
+                "pu": null,
+                "ne": "KBC-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1765,
+                "n": "Khushboo Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "Khushboo-Bangla",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2001,
+                "n": "Live Patna Sahib Patna",
+                "d": null,
+                "pu": null,
+                "ne": "Live-Patna-Sahib-Patna",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1977,
+                "n": "Live Punjabi",
+                "d": null,
+                "pu": null,
+                "ne": "Live-Punjabi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1647,
+                "n": "Live Times",
+                "d": null,
+                "pu": null,
+                "ne": "Live-Times",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1911,
+                "n": "Living India News",
+                "d": null,
+                "pu": null,
+                "ne": "Living-India-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1826,
+                "n": "Madha TV",
+                "d": null,
+                "pu": null,
+                "ne": "Madha-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1745,
+                "n": "Mahaa Max",
+                "d": null,
+                "pu": null,
+                "ne": "Mahaa-Max",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1724,
+                "n": "MAHAA NEWS",
+                "d": null,
+                "pu": null,
+                "ne": "MAHAA-NEWS",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1917,
+                "n": "Mahakaleshwar Temple, Ujjain",
+                "d": null,
+                "pu": null,
+                "ne": "Mahakaleshwar-Temple-Ujjain",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1857,
+                "n": "Manorama News",
+                "d": null,
+                "pu": null,
+                "ne": "Manorama-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1397,
+                "n": "Manoranjan Grand",
+                "d": null,
+                "pu": "1397.webp",
+                "ne": "Manoranjan-Grand",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1816,
+                "n": "Mazhavil Manorama",
+                "d": null,
+                "pu": null,
+                "ne": "Mazhavil-Manorama",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1993,
+                "n": "MEDIA 9",
+                "d": null,
+                "pu": null,
+                "ne": "MEDIA-9",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1882,
+                "n": "Media One",
+                "d": null,
+                "pu": null,
+                "ne": "Media-One",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1783,
+                "n": "Mega TV",
+                "d": null,
+                "pu": null,
+                "ne": "Mega-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1707,
+                "n": "MH One Dil Se",
+                "d": null,
+                "pu": null,
+                "ne": "MH-One-Dil-Se",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 105,
+                "n": "MTV",
+                "d": null,
+                "pu": "105.png",
+                "ne": "MTV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1622,
+                "n": "MTV",
+                "d": null,
+                "pu": null,
+                "ne": "MTV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1966,
+                "n": "Nakshatra Digital",
+                "d": null,
+                "pu": null,
+                "ne": "Nakshatra-Digital",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1843,
+                "n": "Nambikkai TV",
+                "d": null,
+                "pu": null,
+                "ne": "Nambikkai-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1943,
+                "n": "Namma TV",
+                "d": null,
+                "pu": null,
+                "ne": "Namma-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1829,
+                "n": "Nandighosha TV",
+                "d": null,
+                "pu": null,
+                "ne": "Nandighosha-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2017,
+                "n": "National News Live",
+                "d": null,
+                "pu": null,
+                "ne": "National-News-Live",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1991,
+                "n": "Nav Tej TV",
+                "d": null,
+                "pu": null,
+                "ne": "Nav-Tej-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2003,
+                "n": "NAVSARJAN SANSKRUTI GUJARATI",
+                "d": null,
+                "pu": null,
+                "ne": "NAVSARJAN-SANSKRUTI-GUJARATI",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1734,
+                "n": "Naxatra News",
+                "d": null,
+                "pu": null,
+                "ne": "Naxatra-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1396,
+                "n": "NAZARA",
+                "d": null,
+                "pu": "1396.webp",
+                "ne": "NAZARA",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1898,
+                "n": "NB News",
+                "d": null,
+                "pu": null,
+                "ne": "NB-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1770,
+                "n": "NDTV MARATHI",
+                "d": null,
+                "pu": null,
+                "ne": "NDTV-MARATHI",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1738,
+                "n": "NDTV MPCG",
+                "d": null,
+                "pu": null,
+                "ne": "NDTV-MPCG",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1695,
+                "n": "NDTV Rajasthan",
+                "d": null,
+                "pu": null,
+                "ne": "NDTV-Rajasthan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1912,
+                "n": "NE NEWS",
+                "d": null,
+                "pu": null,
+                "ne": "NE-NEWS",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1901,
+                "n": "Nepal 1",
+                "d": null,
+                "pu": null,
+                "ne": "Nepal-1",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1681,
+                "n": "News 11 Bharat",
+                "d": null,
+                "pu": null,
+                "ne": "News-11-Bharat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1820,
+                "n": "News 1st Kannada",
+                "d": null,
+                "pu": null,
+                "ne": "News-1st-Kannada",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2009,
+                "n": "News 21",
+                "d": null,
+                "pu": null,
+                "ne": "News-21",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1606,
+                "n": "News 24",
+                "d": null,
+                "pu": null,
+                "ne": "News-24",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1710,
+                "n": "News 24 Madhyapradesh Chattisgarh",
+                "d": null,
+                "pu": null,
+                "ne": "News-24-Madhyapradesh-Chattisgarh",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1612,
+                "n": "News 9",
+                "d": null,
+                "pu": null,
+                "ne": "News-9",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1833,
+                "n": "News Capital",
+                "d": null,
+                "pu": null,
+                "ne": "News-Capital",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1989,
+                "n": "News Ground 24x7",
+                "d": null,
+                "pu": null,
+                "ne": "News-Ground-24x7",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1613,
+                "n": "News India 24x7",
+                "d": null,
+                "pu": null,
+                "ne": "News-India-24x7",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1890,
+                "n": "News J",
+                "d": null,
+                "pu": null,
+                "ne": "News-J",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1968,
+                "n": "NEWS LIVE",
+                "d": null,
+                "pu": null,
+                "ne": "NEWS-LIVE",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1760,
+                "n": "News Live Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "News-Live-Bangla",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1856,
+                "n": "News Malayalam 24x7",
+                "d": null,
+                "pu": null,
+                "ne": "News-Malayalam-24x7",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1570,
+                "n": "News Nation",
+                "d": null,
+                "pu": null,
+                "ne": "News-Nation",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2007,
+                "n": "News Nation 81",
+                "d": null,
+                "pu": null,
+                "ne": "News-Nation-81",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1944,
+                "n": "News State Punjab Haryana Himachal",
+                "d": null,
+                "pu": null,
+                "ne": "News-State-Punjab-Haryana-Himachal",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1702,
+                "n": "News State UP Uttarakhand",
+                "d": null,
+                "pu": null,
+                "ne": "News-State-UP-Uttarakhand",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1895,
+                "n": "News Tamil 24x7",
+                "d": null,
+                "pu": null,
+                "ne": "News-Tamil-24x7",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1739,
+                "n": "News Time Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "News-Time-Bangla",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1960,
+                "n": "News18 Assam North East",
+                "d": null,
+                "pu": null,
+                "ne": "News18-Assam-North-East",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1712,
+                "n": "News18 Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "News18-Bangla",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1706,
+                "n": "News18 Jammu Kashmir Ladakh Himachal",
+                "d": null,
+                "pu": null,
+                "ne": "News18-Jammu-Kashmir-Ladakh-Himachal",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1893,
+                "n": "News18 Kannada",
+                "d": null,
+                "pu": null,
+                "ne": "News18-Kannada",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1847,
+                "n": "News18 Kerala",
+                "d": null,
+                "pu": null,
+                "ne": "News18-Kerala",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1731,
+                "n": "News18 Lokmat",
+                "d": null,
+                "pu": null,
+                "ne": "News18-Lokmat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1889,
+                "n": "News18 Punjab",
+                "d": null,
+                "pu": null,
+                "ne": "News18-Punjab",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1855,
+                "n": "News18 Tamil Nadu",
+                "d": null,
+                "pu": null,
+                "ne": "News18-Tamil-Nadu",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1821,
+                "n": "News7",
+                "d": null,
+                "pu": null,
+                "ne": "News7",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1618,
+                "n": "NewsX World",
+                "d": null,
+                "pu": null,
+                "ne": "NewsX-World",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1601,
+                "n": "NHK World Japan",
+                "d": null,
+                "pu": null,
+                "ne": "NHK-World-Japan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2015,
+                "n": "NIJAM TV",
+                "d": null,
+                "pu": null,
+                "ne": "NIJAM-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1801,
+                "n": "Nireekshana TV",
+                "d": null,
+                "pu": null,
+                "ne": "Nireekshana-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1986,
+                "n": "NKTV PLUS",
+                "d": null,
+                "pu": null,
+                "ne": "NKTV-PLUS",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1983,
+                "n": "NTV",
+                "d": null,
+                "pu": null,
+                "ne": "NTV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1665,
+                "n": "Paras Gold One",
+                "d": null,
+                "pu": null,
+                "ne": "Paras-Gold-One",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1925,
+                "n": "Pear TV",
+                "d": null,
+                "pu": null,
+                "ne": "Pear-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1810,
+                "n": "Peppers TV",
+                "d": null,
+                "pu": null,
+                "ne": "Peppers-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1862,
+                "n": "Pitaara Movies",
+                "d": null,
+                "pu": null,
+                "ne": "Pitaara-Movies",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1846,
+                "n": "Polimer News",
+                "d": null,
+                "pu": null,
+                "ne": "Polimer-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1812,
+                "n": "Power TV",
+                "d": null,
+                "pu": null,
+                "ne": "Power-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1900,
+                "n": "Powervision",
+                "d": null,
+                "pu": null,
+                "ne": "Powervision",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1903,
+                "n": "Pratham Khabar 24x7",
+                "d": null,
+                "pu": null,
+                "ne": "Pratham-Khabar-24x7",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1999,
+                "n": "Prime TV",
+                "d": null,
+                "pu": null,
+                "ne": "Prime-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1978,
+                "n": "Protidin Time",
+                "d": null,
+                "pu": null,
+                "ne": "Protidin-Time",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1950,
+                "n": "Prudent",
+                "d": null,
+                "pu": null,
+                "ne": "Prudent",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1883,
+                "n": "PTC Chak De",
+                "d": null,
+                "pu": null,
+                "ne": "PTC-Chak-De",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1888,
+                "n": "PTC Music",
+                "d": null,
+                "pu": null,
+                "ne": "PTC-Music",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1894,
+                "n": "PTC Simran",
+                "d": null,
+                "pu": null,
+                "ne": "PTC-Simran",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1827,
+                "n": "Puthiya Thalaimurai",
+                "d": null,
+                "pu": null,
+                "ne": "Puthiya-Thalaimurai",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1805,
+                "n": "R Kannada",
+                "d": null,
+                "pu": null,
+                "ne": "R-Kannada",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1861,
+                "n": "Raj Musix Malayalam",
+                "d": null,
+                "pu": null,
+                "ne": "Raj-Musix-Malayalam",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1797,
+                "n": "Raj News Kannada",
+                "d": null,
+                "pu": null,
+                "ne": "Raj-News-Kannada",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1871,
+                "n": "Raj News Tamil.",
+                "d": null,
+                "pu": null,
+                "ne": "Raj-News-Tamil",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1775,
+                "n": "Raj News Telugu",
+                "d": null,
+                "pu": null,
+                "ne": "Raj-News-Telugu",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1652,
+                "n": "Raj Pariwar",
+                "d": null,
+                "pu": null,
+                "ne": "Raj-Pariwar",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1957,
+                "n": "RDX Goa",
+                "d": null,
+                "pu": null,
+                "ne": "RDX-Goa",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1947,
+                "n": "Real News Kerala",
+                "d": null,
+                "pu": null,
+                "ne": "Real-News-Kerala",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1837,
+                "n": "Reporter TV",
+                "d": null,
+                "pu": null,
+                "ne": "Reporter-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1729,
+                "n": "Republic Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "Republic-Bangla",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1772,
+                "n": "Rongeen TV",
+                "d": null,
+                "pu": null,
+                "ne": "Rongeen-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1593,
+                "n": "Russia Today",
+                "d": null,
+                "pu": null,
+                "ne": "Russia-Today",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1746,
+                "n": "Saam TV",
+                "d": null,
+                "pu": null,
+                "ne": "Saam-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1687,
+                "n": "Sach Bedhadak",
+                "d": null,
+                "pu": null,
+                "ne": "Sach-Bedhadak",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1701,
+                "n": "Sadhna News MP CG",
+                "d": null,
+                "pu": null,
+                "ne": "Sadhna-News-MP-CG",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1711,
+                "n": "Sadhna Plus News",
+                "d": null,
+                "pu": null,
+                "ne": "Sadhna-Plus-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1769,
+                "n": "Sadhna Prime News",
+                "d": null,
+                "pu": null,
+                "ne": "Sadhna-Prime-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1938,
+                "n": "Sadvidya",
+                "d": null,
+                "pu": null,
+                "ne": "Sadvidya",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1995,
+                "n": "Samachar 24 News",
+                "d": null,
+                "pu": null,
+                "ne": "Samachar-24-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1982,
+                "n": "Sana Plus TV",
+                "d": null,
+                "pu": null,
+                "ne": "Sana-Plus-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1768,
+                "n": "Sangeet Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "Sangeet-Bangla",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1779,
+                "n": "Sangeet Marathi",
+                "d": null,
+                "pu": null,
+                "ne": "Sangeet-Marathi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1610,
+                "n": "Sansad TV 1",
+                "d": null,
+                "pu": null,
+                "ne": "Sansad-TV-1",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1594,
+                "n": "Sansad TV 1 HD",
+                "d": null,
+                "pu": null,
+                "ne": "Sansad-TV-1-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1615,
+                "n": "Sansad TV 2",
+                "d": null,
+                "pu": null,
+                "ne": "Sansad-TV-2",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1602,
+                "n": "Sansad TV 2 HD",
+                "d": null,
+                "pu": null,
+                "ne": "Sansad-TV-2-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1667,
+                "n": "Santwani",
+                "d": null,
+                "pu": null,
+                "ne": "Santwani",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1877,
+                "n": "Sathiyam TV",
+                "d": null,
+                "pu": null,
+                "ne": "Sathiyam-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1860,
+                "n": "Seithigal TV",
+                "d": null,
+                "pu": null,
+                "ne": "Seithigal-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1848,
+                "n": "SHEKINAH",
+                "d": null,
+                "pu": null,
+                "ne": "SHEKINAH",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1376,
+                "n": "Shemaroo TV",
+                "d": null,
+                "pu": "1376.webp",
+                "ne": "Shemaroo-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1395,
+                "n": "Shemaroo UMANG",
+                "d": null,
+                "pu": "1395.webp",
+                "ne": "Shemaroo-UMANG",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1980,
+                "n": "Shiksha TV",
+                "d": null,
+                "pu": null,
+                "ne": "Shiksha-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1941,
+                "n": "Shirdi Sai Baba",
+                "d": null,
+                "pu": null,
+                "ne": "Shirdi-Sai-Baba",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1644,
+                "n": "Showbox",
+                "d": null,
+                "pu": null,
+                "ne": "Showbox",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2008,
+                "n": "Shree Ichchhapuran Balaji Mandir",
+                "d": null,
+                "pu": null,
+                "ne": "Shree-Ichchhapuran-Balaji-Mandir",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1949,
+                "n": "Shresthbharat TV",
+                "d": null,
+                "pu": null,
+                "ne": "Shresthbharat-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1939,
+                "n": "Shri Ashtavinayak Mahaganpati, Ranjangaon",
+                "d": null,
+                "pu": null,
+                "ne": "Shri-Ashtavinayak-Mahaganpati-Ranjangaon",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1932,
+                "n": "Shri ISKCON Girgaon, Mumbai",
+                "d": null,
+                "pu": null,
+                "ne": "Shri-ISKCON-Girgaon-Mumbai",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1767,
+                "n": "Shubhavaarta TV",
+                "d": null,
+                "pu": null,
+                "ne": "Shubhavaarta-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1830,
+                "n": "SIRIKANNADA Alltime",
+                "d": null,
+                "pu": null,
+                "ne": "SIRIKANNADA-Alltime",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1803,
+                "n": "Sirippoli",
+                "d": null,
+                "pu": null,
+                "ne": "Sirippoli",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1924,
+                "n": "Somnath Temple",
+                "d": null,
+                "pu": null,
+                "ne": "Somnath-Temple",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 101,
+                "n": "Sony Pal",
+                "d": null,
+                "pu": "101.webp",
+                "ne": "Sony-Pal",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1915,
+                "n": "SPONDON",
+                "d": null,
+                "pu": null,
+                "ne": "SPONDON",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2006,
+                "n": "Sristi TV",
+                "d": null,
+                "pu": null,
+                "ne": "Sristi-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1603,
+                "n": "Star Bharat",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Bharat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1704,
+                "n": "Star Pravah Pictures HD",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Pravah-Pictures-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1928,
+                "n": "STV Haryana News",
+                "d": null,
+                "pu": null,
+                "ne": "STV-Haryana-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1645,
+                "n": "Subharti TV",
+                "d": null,
+                "pu": null,
+                "ne": "Subharti-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1630,
+                "n": "Sudarshan News",
+                "d": null,
+                "pu": null,
+                "ne": "Sudarshan-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1686,
+                "n": "Sun Marathi",
+                "d": null,
+                "pu": null,
+                "ne": "Sun-Marathi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1922,
+                "n": "Sun Music",
+                "d": null,
+                "pu": null,
+                "ne": "Sun-Music",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1916,
+                "n": "Sun Music HD",
+                "d": null,
+                "pu": null,
+                "ne": "Sun-Music-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1541,
+                "n": "Sun Neo HD",
+                "d": null,
+                "pu": null,
+                "ne": "Sun-Neo-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1838,
+                "n": "Sun News",
+                "d": null,
+                "pu": null,
+                "ne": "Sun-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1752,
+                "n": "Sun TV",
+                "d": null,
+                "pu": null,
+                "ne": "Sun-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1867,
+                "n": "Surya HD",
+                "d": null,
+                "pu": null,
+                "ne": "Surya-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1891,
+                "n": "SVBC",
+                "d": null,
+                "pu": null,
+                "ne": "SVBC",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1869,
+                "n": "SVBC 3",
+                "d": null,
+                "pu": null,
+                "ne": "SVBC-3",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1587,
+                "n": "Swadesh News",
+                "d": null,
+                "pu": null,
+                "ne": "Swadesh-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1992,
+                "n": "Swar Shree",
+                "d": null,
+                "pu": null,
+                "ne": "Swar-Shree",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1785,
+                "n": "Swara Sagar",
+                "d": null,
+                "pu": null,
+                "ne": "Swara-Sagar",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1697,
+                "n": "Swaraj Express SMBC",
+                "d": null,
+                "pu": null,
+                "ne": "Swaraj-Express-SMBC",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1700,
+                "n": "Swatantra TV",
+                "d": null,
+                "pu": null,
+                "ne": "Swatantra-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1902,
+                "n": "Tamil Janam",
+                "d": null,
+                "pu": null,
+                "ne": "Tamil-Janam",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1972,
+                "n": "Tar TV",
+                "d": null,
+                "pu": null,
+                "ne": "Tar-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1979,
+                "n": "Tara News",
+                "d": null,
+                "pu": null,
+                "ne": "Tara-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1646,
+                "n": "Tata Play Adbhut Kahaniyan",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Adbhut-Kahaniyan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1659,
+                "n": "Tata Play Aradhana",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Aradhana",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1921,
+                "n": "Tata Play Asomiya Monoronjan",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Asomiya-Monoronjan",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1588,
+                "n": "Tata Play Astro Duniya",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Astro-Duniya",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1689,
+                "n": "Tata Play Bangla Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Bangla-Cinema",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1558,
+                "n": "Tata Play Beauty",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Beauty",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1565,
+                "n": "Tata Play Classic TV",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Classic-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1567,
+                "n": "Tata Play Cooking",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Cooking",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1849,
+                "n": "Tata Play Deiveegam",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Deiveegam",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1619,
+                "n": "Tata Play English in Hindi",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-English-in-Hindi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1725,
+                "n": "Tata Play English in Telugu",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-English-in-Telugu",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1600,
+                "n": "Tata Play Fancode Sports",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Fancode-Sports",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1635,
+                "n": "Tata Play Fun Learn Junior",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Fun-Learn-Junior",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1626,
+                "n": "Tata Play Fun Learn Preschool",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Fun-Learn-Preschool",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1596,
+                "n": "Tata Play Har Ghar Startup",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Har-Ghar-Startup",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1569,
+                "n": "Tata Play Hits",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Hits",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1771,
+                "n": "Tata Play Hollywood Local Tamil",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Hollywood-Local-Tamil",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1780,
+                "n": "Tata Play Hollywood Local Telugu",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Hollywood-Local-Telugu",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1671,
+                "n": "Tata Play Ibaadat",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Ibaadat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1548,
+                "n": "Tata Play Javed Akhtar",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Javed-Akhtar",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1878,
+                "n": "Tata Play Kalyan TV",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Kalyan-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1864,
+                "n": "Tata Play Kannada Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Kannada-Cinema",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1868,
+                "n": "Tata Play Kartavya TV",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Kartavya-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1556,
+                "n": "Tata Play K-Dramas",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-K-Dramas",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1858,
+                "n": "Tata Play Lakshya TV",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Lakshya-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1884,
+                "n": "Tata Play Malayalam Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Malayalam-Cinema",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1732,
+                "n": "Tata Play Marathi Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Marathi-Cinema",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1750,
+                "n": "Tata Play Marathi Classics",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Marathi-Classics",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1631,
+                "n": "Tata Play Music",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Music",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1907,
+                "n": "Tata Play Punjab De Rang",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Punjab-De-Rang",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1564,
+                "n": "Tata Play Seniors",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Seniors",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1574,
+                "n": "Tata Play ShortsTV",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-ShortsTV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1640,
+                "n": "Tata Play Smart Manager",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Smart-Manager",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1595,
+                "n": "Tata Play Superhits Serials",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Superhits-Serials",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1741,
+                "n": "Tata Play Tamil Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Tamil-Cinema",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1555,
+                "n": "Tata Play Theatre HD",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Theatre-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1885,
+                "n": "Tata Play Valam TV",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Valam-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1575,
+                "n": "Tata Play Zindagi",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Zindagi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1825,
+                "n": "Thanthi One",
+                "d": null,
+                "pu": null,
+                "ne": "Thanthi-One",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 723,
+                "n": "The Q India",
+                "d": null,
+                "pu": "723.png",
+                "ne": "The-Q-India",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1605,
+                "n": "Times Now Navbharat",
+                "d": null,
+                "pu": null,
+                "ne": "Times-Now-Navbharat",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1662,
+                "n": "TNP News",
+                "d": null,
+                "pu": null,
+                "ne": "TNP-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1591,
+                "n": "TOTAL TV",
+                "d": null,
+                "pu": null,
+                "ne": "TOTAL-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1654,
+                "n": "TV 100",
+                "d": null,
+                "pu": null,
+                "ne": "TV-100",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1969,
+                "n": "TV 45 News",
+                "d": null,
+                "pu": null,
+                "ne": "TV-45-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1726,
+                "n": "TV27 News",
+                "d": null,
+                "pu": null,
+                "ne": "TV27-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1913,
+                "n": "TV5 Kannada",
+                "d": null,
+                "pu": null,
+                "ne": "TV5-Kannada",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1655,
+                "n": "TV5 Monde Asie",
+                "d": null,
+                "pu": null,
+                "ne": "TV5-Monde-Asie",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1747,
+                "n": "TV5 News",
+                "d": null,
+                "pu": null,
+                "ne": "TV5-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1719,
+                "n": "TV9 Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "TV9-Bangla",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1892,
+                "n": "TV9 Gujarati",
+                "d": null,
+                "pu": null,
+                "ne": "TV9-Gujarati",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1886,
+                "n": "TV9 Kannada",
+                "d": null,
+                "pu": null,
+                "ne": "TV9-Kannada",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1759,
+                "n": "TV9 Marathi",
+                "d": null,
+                "pu": null,
+                "ne": "TV9-Marathi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1964,
+                "n": "TVRI World",
+                "d": null,
+                "pu": null,
+                "ne": "TVRI-World",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1831,
+                "n": "Twenty Four",
+                "d": null,
+                "pu": null,
+                "ne": "Twenty-Four",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2002,
+                "n": "U Bangla TV",
+                "d": null,
+                "pu": null,
+                "ne": "U-Bangla-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1852,
+                "n": "Udaya Music",
+                "d": null,
+                "pu": null,
+                "ne": "Udaya-Music",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1632,
+                "n": "Unique TV",
+                "d": null,
+                "pu": null,
+                "ne": "Unique-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2004,
+                "n": "Vande Bharat News",
+                "d": null,
+                "pu": null,
+                "ne": "Vande-Bharat-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1736,
+                "n": "Vanitha",
+                "d": null,
+                "pu": null,
+                "ne": "Vanitha",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1795,
+                "n": "Vasanth TV",
+                "d": null,
+                "pu": null,
+                "ne": "Vasanth-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1637,
+                "n": "Vedic",
+                "d": null,
+                "pu": null,
+                "ne": "Vedic",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1814,
+                "n": "Vendhar TV",
+                "d": null,
+                "pu": null,
+                "ne": "Vendhar-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1792,
+                "n": "Vijay Super",
+                "d": null,
+                "pu": null,
+                "ne": "Vijay-Super",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1787,
+                "n": "Vijay Super HD",
+                "d": null,
+                "pu": null,
+                "ne": "Vijay-Super-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1802,
+                "n": "Vijay Takkar",
+                "d": null,
+                "pu": null,
+                "ne": "Vijay-Takkar",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1853,
+                "n": "Village TV",
+                "d": null,
+                "pu": null,
+                "ne": "Village-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1721,
+                "n": "Vissa TV",
+                "d": null,
+                "pu": null,
+                "ne": "Vissa-TV",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1744,
+                "n": "Vistaar News",
+                "d": null,
+                "pu": null,
+                "ne": "Vistaar-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1809,
+                "n": "VTV News",
+                "d": null,
+                "pu": null,
+                "ne": "VTV-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1604,
+                "n": "WION",
+                "d": null,
+                "pu": null,
+                "ne": "WION",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1693,
+                "n": "Zee 24 Ghanta",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-24-Ghanta",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1817,
+                "n": "Zee 24 Kalak",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-24-Kalak",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1740,
+                "n": "Zee 24 Taas",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-24-Taas",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1692,
+                "n": "Zee Bihar Jharkhand",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Bihar-Jharkhand",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1806,
+                "n": "Zee Kannada HD",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Kannada-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1824,
+                "n": "Zee Kannada News",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Kannada-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1764,
+                "n": "Zee Madhya Pradesh Chattisgarh",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Madhya-Pradesh-Chattisgarh",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1854,
+                "n": "Zee Picchar HD",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Picchar-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1879,
+                "n": "Zee Punjab Haryana Himachal Pradesh",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Punjab-Haryana-Himachal-Pradesh",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1914,
+                "n": "Zee Punjabi",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Punjabi",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1694,
+                "n": "Zee Talkies HD",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Talkies-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1737,
+                "n": "Zee Telugu News",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Telugu-News",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1850,
+                "n": "Zee Thirai HD",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Thirai-HD",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1677,
+                "n": "Zee Uttar Pradesh Uttarakhand",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Uttar-Pradesh-Uttarakhand",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1657,
+                "n": "Zee Zest",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Zest",
+                "cci": 8,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 11,
+            "n": "English Entertainment",
+            "ne": "English-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 65,
+                "n": "Colors Infinity",
+                "d": null,
+                "pu": "65.jpg",
+                "ne": "Colors-Infinity",
+                "cci": 11,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 59,
+                "n": "Colors Infinity HD",
+                "d": null,
+                "pu": "59.jpg",
+                "ne": "Colors-Infinity-HD",
+                "cci": 11,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 737,
+                "n": "Disney International HD",
+                "d": null,
+                "pu": "737.jpg",
+                "ne": "Disney-International-HD",
+                "cci": 11,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1578,
+                "n": "Zee Cafe",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Cafe",
+                "cci": 11,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 57,
+                "n": "Zee Cafe HD",
+                "d": null,
+                "pu": "57.jpg",
+                "ne": "Zee-Cafe-HD",
+                "cci": 11,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 738,
+                "n": "Zee Zest HD",
+                "d": null,
+                "pu": "738.jpg",
+                "ne": "Zee-Zest-HD",
+                "cci": 11,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 13,
+            "n": "Infotainment (HD)",
+            "ne": "Infotainment-HD",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 76,
+                "n": "Animal Planet HD",
+                "d": null,
+                "pu": "76.png",
+                "ne": "Animal-Planet-HD",
+                "cci": 13,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 74,
+                "n": "Nat Geo Wild HD",
+                "d": null,
+                "pu": "74.jpg",
+                "ne": "Nat-Geo-Wild-HD",
+                "cci": 13,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 72,
+                "n": "National Geographic HD",
+                "d": null,
+                "pu": "72.jpg",
+                "ne": "National-Geographic-HD",
+                "cci": 13,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 14,
+            "n": "Odia Entertainment",
+            "ne": "Odia-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 674,
+                "n": "Alankar TV",
+                "d": null,
+                "pu": "674.jpg",
+                "ne": "Alankar-TV",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1841,
+                "n": "Argus News",
+                "d": null,
+                "pu": null,
+                "ne": "Argus-News",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1429,
+                "n": "Ekamra  Music",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-Music",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1976,
+                "n": "Ekamra Baiscope",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-Baiscope",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1423,
+                "n": "Ekamra Bharat Odia",
+                "d": null,
+                "pu": "1423.webp",
+                "ne": "Ekamra-Bharat-Odia",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1940,
+                "n": "Ekamra Cynema",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-Cynema",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1430,
+                "n": "Ekamra Jatra",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-Jatra",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1433,
+                "n": "Ekamra Manoranjan",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-Manoranjan",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1931,
+                "n": "Ekamra Nilachakra",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-Nilachakra",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1431,
+                "n": "Ekamra One paschima",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-One-paschima",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1948,
+                "n": "Ekamra Paramatma",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-Paramatma",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1988,
+                "n": "Ekamra snews",
+                "d": null,
+                "pu": null,
+                "ne": "Ekamra-snews",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1422,
+                "n": "Jay Jagannath",
+                "d": null,
+                "pu": "1422.webp",
+                "ne": "Jay-Jagannath",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1965,
+                "n": "Kalinga Bharat",
+                "d": null,
+                "pu": null,
+                "ne": "Kalinga-Bharat",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1813,
+                "n": "Kalinga TV",
+                "d": null,
+                "pu": null,
+                "ne": "Kalinga-TV",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 85,
+                "n": "Kanak News",
+                "d": null,
+                "pu": "85.jpg",
+                "ne": "Kanak-News",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1987,
+                "n": "News 8 odia",
+                "d": null,
+                "pu": null,
+                "ne": "News-8-odia",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1432,
+                "n": "Omm",
+                "d": null,
+                "pu": null,
+                "ne": "Omm",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 84,
+                "n": "OTV",
+                "d": null,
+                "pu": "84.jpg",
+                "ne": "OTV",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 89,
+                "n": "Prarthana TV",
+                "d": null,
+                "pu": "89.jpg",
+                "ne": "Prarthana-TV",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1420,
+                "n": "Sidharth GOLD",
+                "d": null,
+                "pu": "1420.webp",
+                "ne": "Sidharth-GOLD",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1283,
+                "n": "Sidharth TV",
+                "d": null,
+                "pu": "1283.webp",
+                "ne": "Sidharth-TV",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1421,
+                "n": "Sidharth UTSAV",
+                "d": null,
+                "pu": "1421.webp",
+                "ne": "Sidharth-UTSAV",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1289,
+                "n": "Star Kiran",
+                "d": null,
+                "pu": "1289.webp",
+                "ne": "Star-Kiran",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1851,
+                "n": "Tarang Music",
+                "d": null,
+                "pu": null,
+                "ne": "Tarang-Music",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 81,
+                "n": "Zee Sarthak",
+                "d": null,
+                "pu": "81.jpg",
+                "ne": "Zee-Sarthak",
+                "cci": 14,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 16,
+            "n": "English News",
+            "ne": "English-News",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1668,
+                "n": "ABC Australia",
+                "d": null,
+                "pu": null,
+                "ne": "ABC-Australia",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 725,
+                "n": "BBC World",
+                "d": null,
+                "pu": "725.jpg",
+                "ne": "BBC-World",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1643,
+                "n": "CNN International",
+                "d": null,
+                "pu": null,
+                "ne": "CNN-International",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1650,
+                "n": "CNN News18",
+                "d": null,
+                "pu": null,
+                "ne": "CNN-News18",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1634,
+                "n": "ET NOW",
+                "d": null,
+                "pu": null,
+                "ne": "ET-NOW",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1642,
+                "n": "INDIA TODAY",
+                "d": null,
+                "pu": null,
+                "ne": "INDIA-TODAY",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1597,
+                "n": "Mirror Now",
+                "d": null,
+                "pu": null,
+                "ne": "Mirror-Now",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1620,
+                "n": "NDTV 24x7",
+                "d": null,
+                "pu": null,
+                "ne": "NDTV-24x7",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 732,
+                "n": "Republic TV",
+                "d": null,
+                "pu": "732.jpg",
+                "ne": "Republic-TV",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1636,
+                "n": "TIMES NOW",
+                "d": null,
+                "pu": null,
+                "ne": "TIMES-NOW",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1627,
+                "n": "Times Now World",
+                "d": null,
+                "pu": null,
+                "ne": "Times-Now-World",
+                "cci": 16,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 18,
+            "n": "Sports (HD)",
+            "ne": "Sports-HD",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1716,
+                "n": "Star Sports 1 Telugu HD",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-1-Telugu-HD",
+                "cci": 18,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 101,
+            "n": "Telugu Entertainment",
+            "ne": "Telugu-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1717,
+                "n": "BIG TV Telugu",
+                "d": null,
+                "pu": null,
+                "ne": "BIG-TV-Telugu",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 218,
+                "n": "ETV Abhiruchi",
+                "d": null,
+                "pu": "218.jpg",
+                "ne": "ETV-Abhiruchi",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 206,
+                "n": "ETV Andhra Pradesh",
+                "d": null,
+                "pu": "206.jpg",
+                "ne": "ETV-Andhra-Pradesh",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 220,
+                "n": "ETV Plus",
+                "d": null,
+                "pu": "220.jpg",
+                "ne": "ETV-Plus",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1699,
+                "n": "ETV Plus HD",
+                "d": null,
+                "pu": null,
+                "ne": "ETV-Plus-HD",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 639,
+                "n": "ETV Telangana",
+                "d": null,
+                "pu": "639.jpg",
+                "ne": "ETV-Telangana",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 205,
+                "n": "ETV Telugu",
+                "d": null,
+                "pu": "205.jpg",
+                "ne": "ETV-Telugu",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1690,
+                "n": "ETV Telugu",
+                "d": null,
+                "pu": null,
+                "ne": "ETV-Telugu",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 204,
+                "n": "Gemini Comedy",
+                "d": null,
+                "pu": "204.jpg",
+                "ne": "Gemini-Comedy",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 214,
+                "n": "Gemini Life",
+                "d": null,
+                "pu": "214.jpg",
+                "ne": "Gemini-Life",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 203,
+                "n": "Gemini TV",
+                "d": null,
+                "pu": "203.png",
+                "ne": "Gemini-TV",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 209,
+                "n": "NTV Telugu",
+                "d": null,
+                "pu": "209.jpg",
+                "ne": "NTV-Telugu",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1974,
+                "n": "Samara News",
+                "d": null,
+                "pu": null,
+                "ne": "Samara-News",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1788,
+                "n": "STAR Maa HD",
+                "d": null,
+                "pu": null,
+                "ne": "STAR-Maa-HD",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1757,
+                "n": "Star Maa Music",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Maa-Music",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1679,
+                "n": "Studio One \u002B",
+                "d": null,
+                "pu": null,
+                "ne": "Studio-One",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1753,
+                "n": "TV9 Telugu",
+                "d": null,
+                "pu": null,
+                "ne": "TV9-Telugu",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1782,
+                "n": "Zee Telugu",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Telugu",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 201,
+                "n": "Zee Telugu",
+                "d": null,
+                "pu": "201.jpg",
+                "ne": "Zee-Telugu",
+                "cci": 101,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 102,
+            "n": "Bengali Entertainment",
+            "ne": "Bengali-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1288,
+                "n": "Aakash Aath",
+                "d": null,
+                "pu": "1288.webp",
+                "ne": "Aakash-Aath",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1973,
+                "n": "Bangla Bhakti",
+                "d": null,
+                "pu": null,
+                "ne": "Bangla-Bhakti",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1755,
+                "n": "Calcutta News",
+                "d": null,
+                "pu": null,
+                "ne": "Calcutta-News",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 303,
+                "n": "Colors Bangla",
+                "d": null,
+                "pu": "303.jpg",
+                "ne": "Colors-Bangla",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1682,
+                "n": "Colors Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "Colors-Bangla",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1758,
+                "n": "Colors Bangla Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Colors-Bangla-Cinema",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 310,
+                "n": "Colors Bangla HD",
+                "d": null,
+                "pu": "310.jpg",
+                "ne": "Colors-Bangla-HD",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1705,
+                "n": "Kolkata TV",
+                "d": null,
+                "pu": null,
+                "ne": "Kolkata-TV",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 719,
+                "n": "Ruposhi Bangla",
+                "d": null,
+                "pu": "719.jpg",
+                "ne": "Ruposhi-Bangla",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 305,
+                "n": "Sony Aath",
+                "d": null,
+                "pu": "305.jpg",
+                "ne": "Sony-Aath",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 718,
+                "n": "Star Jalsha",
+                "d": null,
+                "pu": "718.jpg",
+                "ne": "Star-Jalsha",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1708,
+                "n": "Star Jalsha HD",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Jalsha-HD",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 34,
+                "n": "Star Jalsha Movies",
+                "d": null,
+                "pu": "34.webp",
+                "ne": "Star-Jalsha-Movies",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 716,
+                "n": "Sun Bangla",
+                "d": null,
+                "pu": "716.jpg",
+                "ne": "Sun-Bangla",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1718,
+                "n": "Sun Bangla HD",
+                "d": null,
+                "pu": null,
+                "ne": "Sun-Bangla-HD",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 311,
+                "n": "Zee Bangla",
+                "d": null,
+                "pu": "311.jpg",
+                "ne": "Zee-Bangla",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1696,
+                "n": "Zee Bangla",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Bangla",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 33,
+                "n": "Zee Bangla Cinema",
+                "d": null,
+                "pu": "33.jpg",
+                "ne": "Zee-Bangla-Cinema",
+                "cci": 102,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 103,
+            "n": "MalayaLam Entertainment",
+            "ne": "MalayaLam-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 356,
+                "n": "Amrita TV",
+                "d": null,
+                "pu": "356.jpg",
+                "ne": "Amrita-TV",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 42,
+                "n": "Asianet",
+                "d": null,
+                "pu": "42.jpg",
+                "ne": "Asianet",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1839,
+                "n": "Asianet Movies",
+                "d": null,
+                "pu": null,
+                "ne": "Asianet-Movies",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 355,
+                "n": "Asianet Movies HD",
+                "d": null,
+                "pu": "355.jpg",
+                "ne": "Asianet-Movies-HD",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1896,
+                "n": "Asianet Plus",
+                "d": null,
+                "pu": null,
+                "ne": "Asianet-Plus",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1908,
+                "n": "Asianet Suvarna News",
+                "d": null,
+                "pu": null,
+                "ne": "Asianet-Suvarna-News",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 706,
+                "n": "Colors Super",
+                "d": null,
+                "pu": "706.webp",
+                "ne": "Colors-Super",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1163,
+                "n": "Flowers",
+                "d": null,
+                "pu": "1163.jpg",
+                "ne": "Flowers",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 359,
+                "n": "Kairali TV",
+                "d": null,
+                "pu": "359.jpg",
+                "ne": "Kairali-TV",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 360,
+                "n": "Kochu TV",
+                "d": null,
+                "pu": "360.jpg",
+                "ne": "Kochu-TV",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 351,
+                "n": "Mazhavil Manorama",
+                "d": null,
+                "pu": "351.jpg",
+                "ne": "Mazhavil-Manorama",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 358,
+                "n": "Mazhavil Manorama HD",
+                "d": null,
+                "pu": "358.jpg",
+                "ne": "Mazhavil-Manorama-HD",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 44,
+                "n": "Surya Movies",
+                "d": null,
+                "pu": "44.jpg",
+                "ne": "Surya-Movies",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 363,
+                "n": "Surya Music",
+                "d": null,
+                "pu": "363.jpg",
+                "ne": "Surya-Music",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 352,
+                "n": "Surya TV",
+                "d": null,
+                "pu": "352.jpg",
+                "ne": "Surya-TV",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1316,
+                "n": "We TV",
+                "d": null,
+                "pu": "1316.webp",
+                "ne": "We-TV",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1162,
+                "n": "Zee Keralam",
+                "d": null,
+                "pu": "1162.jpg",
+                "ne": "Zee-Keralam",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1905,
+                "n": "Zee Keralam HD",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Keralam-HD",
+                "cci": 103,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 104,
+            "n": "Gujrati",
+            "ne": "Gujrati",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1828,
+                "n": "1st Gujarat",
+                "d": null,
+                "pu": null,
+                "ne": "1st-Gujarat",
+                "cci": 104,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1844,
+                "n": "Aastha Gujarati",
+                "d": null,
+                "pu": null,
+                "ne": "Aastha-Gujarati",
+                "cci": 104,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 405,
+                "n": "CNBC Bajar",
+                "d": null,
+                "pu": "405.webp",
+                "ne": "CNBC-Bajar",
+                "cci": 104,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 401,
+                "n": "Colors Gujarati",
+                "d": null,
+                "pu": "401.jpg",
+                "ne": "Colors-Gujarati",
+                "cci": 104,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1887,
+                "n": "Colors Gujarati Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Colors-Gujarati-Cinema",
+                "cci": 104,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1426,
+                "n": "Sadvidya",
+                "d": null,
+                "pu": null,
+                "ne": "Sadvidya",
+                "cci": 104,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1880,
+                "n": "Tata Play Gujarati Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Gujarati-Cinema",
+                "cci": 104,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 105,
+            "n": "Kids",
+            "ne": "Kids",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1649,
+                "n": "Cartoon Network",
+                "d": null,
+                "pu": null,
+                "ne": "Cartoon-Network",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 604,
+                "n": "Cartoon Network",
+                "d": null,
+                "pu": "604.jpg",
+                "ne": "Cartoon-Network",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1382,
+                "n": "Cartoon Network HD\u002B",
+                "d": null,
+                "pu": "1382.webp",
+                "ne": "Cartoon-Network-HD",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1384,
+                "n": "CBeeBies",
+                "d": null,
+                "pu": "1384.webp",
+                "ne": "CBeeBies",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 606,
+                "n": "Discovery Kids",
+                "d": null,
+                "pu": "606.jpg",
+                "ne": "Discovery-Kids",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 602,
+                "n": "Disney",
+                "d": null,
+                "pu": "602.jpg",
+                "ne": "Disney",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 611,
+                "n": "Disney Junior",
+                "d": null,
+                "pu": "611.jpg",
+                "ne": "Disney-Junior",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 600,
+                "n": "Hungama",
+                "d": null,
+                "pu": "600.jpg",
+                "ne": "Hungama",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 603,
+                "n": "Nick",
+                "d": null,
+                "pu": "603.jpg",
+                "ne": "Nick",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 78,
+                "n": "Nick HD\u002B",
+                "d": null,
+                "pu": "78.jpg",
+                "ne": "Nick-HD",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 610,
+                "n": "Nick Jr",
+                "d": null,
+                "pu": "610.jpg",
+                "ne": "Nick-Jr",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 605,
+                "n": "Pogo",
+                "d": null,
+                "pu": "605.jpg",
+                "ne": "Pogo",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 607,
+                "n": "Sonic Nickelodeon",
+                "d": null,
+                "pu": "607.jpg",
+                "ne": "Sonic-Nickelodeon",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1383,
+                "n": "SONY YAY!",
+                "d": null,
+                "pu": "1383.webp",
+                "ne": "SONY-YAY",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 709,
+                "n": "Super Hungama",
+                "d": null,
+                "pu": "709.png",
+                "ne": "Super-Hungama",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1658,
+                "n": "Tata Play Toons\u002B",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Toons",
+                "cci": 105,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 106,
+            "n": "Hindi News",
+            "ne": "Hindi-News",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1572,
+                "n": "Aaj Tak HD",
+                "d": null,
+                "pu": null,
+                "ne": "Aaj-Tak-HD",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1638,
+                "n": "Bharat Express",
+                "d": null,
+                "pu": null,
+                "ne": "Bharat-Express",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1561,
+                "n": "Bharat Samachar",
+                "d": null,
+                "pu": null,
+                "ne": "Bharat-Samachar",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2000,
+                "n": "Bharat Times News",
+                "d": null,
+                "pu": null,
+                "ne": "Bharat-Times-News",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1910,
+                "n": "Buletin India",
+                "d": null,
+                "pu": null,
+                "ne": "Buletin-India",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1278,
+                "n": "CNBC Awaaz",
+                "d": null,
+                "pu": "1278.jpg",
+                "ne": "CNBC-Awaaz",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1387,
+                "n": "CNBC TV18",
+                "d": null,
+                "pu": "1387.webp",
+                "ne": "CNBC-TV18",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1388,
+                "n": "CNBC TV18 Prime HD",
+                "d": null,
+                "pu": "1388.webp",
+                "ne": "CNBC-TV18-Prime-HD",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1554,
+                "n": "DD News",
+                "d": null,
+                "pu": null,
+                "ne": "DD-News",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1386,
+                "n": "ET Now Swadesh",
+                "d": null,
+                "pu": "1386.webp",
+                "ne": "ET-Now-Swadesh",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1552,
+                "n": "Hindi Khabar",
+                "d": null,
+                "pu": null,
+                "ne": "Hindi-Khabar",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1559,
+                "n": "India News",
+                "d": null,
+                "pu": null,
+                "ne": "India-News",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1623,
+                "n": "India TV Speed News HD",
+                "d": null,
+                "pu": null,
+                "ne": "India-TV-Speed-News-HD",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1674,
+                "n": "India Voice",
+                "d": null,
+                "pu": null,
+                "ne": "India-Voice",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1580,
+                "n": "Jantantra TV",
+                "d": null,
+                "pu": null,
+                "ne": "Jantantra-TV",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1918,
+                "n": "Khabar Fast",
+                "d": null,
+                "pu": null,
+                "ne": "Khabar-Fast",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 741,
+                "n": "NDTV India",
+                "d": null,
+                "pu": "741.jpg",
+                "ne": "NDTV-India",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1571,
+                "n": "Network 10",
+                "d": null,
+                "pu": null,
+                "ne": "Network-10",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1544,
+                "n": "News 1 India",
+                "d": null,
+                "pu": null,
+                "ne": "News-1-India",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1691,
+                "n": "News State MP CG",
+                "d": null,
+                "pu": null,
+                "ne": "News-State-MP-CG",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 744,
+                "n": "Republic Bharat",
+                "d": null,
+                "pu": "744.jpg",
+                "ne": "Republic-Bharat",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1598,
+                "n": "Times Now Navbharat HD",
+                "d": null,
+                "pu": null,
+                "ne": "Times-Now-Navbharat-HD",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1579,
+                "n": "TV9 Bharatvarsh",
+                "d": null,
+                "pu": null,
+                "ne": "TV9-Bharatvarsh",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1625,
+                "n": "Zee Bharat",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Bharat",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1385,
+                "n": "Zee Business",
+                "d": null,
+                "pu": "1385.webp",
+                "ne": "Zee-Business",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 742,
+                "n": "Zee News",
+                "d": null,
+                "pu": "742.jpg",
+                "ne": "Zee-News",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1581,
+                "n": "Zee News HD",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-News-HD",
+                "cci": 106,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 107,
+            "n": "Devotional",
+            "ne": "Devotional",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1434,
+                "n": "35 MM",
+                "d": null,
+                "pu": null,
+                "ne": "35-MM",
+                "cci": 107,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1628,
+                "n": "Aastha Bhajan",
+                "d": null,
+                "pu": null,
+                "ne": "Aastha-Bhajan",
+                "cci": 107,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 2013,
+                "n": "Bhaktisagar",
+                "d": null,
+                "pu": null,
+                "ne": "Bhaktisagar",
+                "cci": 107,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1881,
+                "n": "Harvest TV 24x7",
+                "d": null,
+                "pu": null,
+                "ne": "Harvest-TV-24x7",
+                "cci": 107,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1394,
+                "n": "Ishara",
+                "d": null,
+                "pu": null,
+                "ne": "Ishara",
+                "cci": 107,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1435,
+                "n": "Jeewan Bhakti",
+                "d": null,
+                "pu": null,
+                "ne": "Jeewan-Bhakti",
+                "cci": 107,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1428,
+                "n": "Sanmarg TV",
+                "d": null,
+                "pu": null,
+                "ne": "Sanmarg-TV",
+                "cci": 107,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 108,
+            "n": "Marathi Entertainment",
+            "ne": "Marathi-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 502,
+                "n": "Colors Marathi HD",
+                "d": null,
+                "pu": "502.jpg",
+                "ne": "Colors-Marathi-HD",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1713,
+                "n": "Fakt Marathi",
+                "d": null,
+                "pu": null,
+                "ne": "Fakt-Marathi",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 731,
+                "n": "Lokshahi",
+                "d": null,
+                "pu": "731.jpg",
+                "ne": "Lokshahi",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1296,
+                "n": "Pasand",
+                "d": null,
+                "pu": "1296.webp",
+                "ne": "Pasand",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1297,
+                "n": "Pravah Picture",
+                "d": null,
+                "pu": "1297.webp",
+                "ne": "Pravah-Picture",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1165,
+                "n": "Sony Marathi",
+                "d": null,
+                "pu": "1165.jpg",
+                "ne": "Sony-Marathi",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 503,
+                "n": "Star Pravah",
+                "d": null,
+                "pu": "503.jpg",
+                "ne": "Star-Pravah",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1678,
+                "n": "Sun Marathi HD",
+                "d": null,
+                "pu": null,
+                "ne": "Sun-Marathi-HD",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 668,
+                "n": "Zee Marathi",
+                "d": null,
+                "pu": "668.jpg",
+                "ne": "Zee-Marathi",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 671,
+                "n": "Zee Talkies",
+                "d": null,
+                "pu": "671.jpg",
+                "ne": "Zee-Talkies",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 667,
+                "n": "Zee Yuva",
+                "d": null,
+                "pu": "667.jpg",
+                "ne": "Zee-Yuva",
+                "cci": 108,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 109,
+            "n": "Tamil Entertainment",
+            "ne": "Tamil-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1185,
+                "n": "Adithya TV",
+                "d": null,
+                "pu": "1185.jpg",
+                "ne": "Adithya-TV",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1184,
+                "n": "Colors Tamil",
+                "d": null,
+                "pu": "1184.jpg",
+                "ne": "Colors-Tamil",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1800,
+                "n": "Colors Tamil HD",
+                "d": null,
+                "pu": null,
+                "ne": "Colors-Tamil-HD",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 41,
+                "n": "J Movies",
+                "d": null,
+                "pu": "41.png",
+                "ne": "J-Movies",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1168,
+                "n": "Jaya TV",
+                "d": null,
+                "pu": "1168.jpg",
+                "ne": "Jaya-TV",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1832,
+                "n": "KTV",
+                "d": null,
+                "pu": "1832.jpg",
+                "ne": "KTV",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 40,
+                "n": "KTV HD",
+                "d": null,
+                "pu": "40.png",
+                "ne": "KTV-HD",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1436,
+                "n": "R TV",
+                "d": null,
+                "pu": null,
+                "ne": "R-TV",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1256,
+                "n": "Raj tv",
+                "d": null,
+                "pu": "1256.jpeg",
+                "ne": "Raj-tv",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1975,
+                "n": "Sana TV",
+                "d": null,
+                "pu": null,
+                "ne": "Sana-TV",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1762,
+                "n": "STAR Vijay",
+                "d": null,
+                "pu": null,
+                "ne": "STAR-Vijay",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 504,
+                "n": "Star Vijay HD",
+                "d": null,
+                "pu": "504.png",
+                "ne": "Star-Vijay-HD",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1424,
+                "n": "SUBIN TV",
+                "d": null,
+                "pu": null,
+                "ne": "SUBIN-TV",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 685,
+                "n": "Sun Tv",
+                "d": null,
+                "pu": "685.png",
+                "ne": "Sun-Tv",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1437,
+                "n": "SURIYAN TV",
+                "d": null,
+                "pu": null,
+                "ne": "SURIYAN-TV",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1818,
+                "n": "Travelxp Tamil",
+                "d": null,
+                "pu": null,
+                "ne": "Travelxp-Tamil",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1425,
+                "n": "Udhayam TV",
+                "d": null,
+                "pu": null,
+                "ne": "Udhayam-TV",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1164,
+                "n": "Zee Tamil",
+                "d": null,
+                "pu": "1164.jpg",
+                "ne": "Zee-Tamil",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1781,
+                "n": "Zee Tamil HD",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Tamil-HD",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1257,
+                "n": "Zee Thirai",
+                "d": null,
+                "pu": "1257.jpg",
+                "ne": "Zee-Thirai",
+                "cci": 109,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 1522,
+            "n": "Sports",
+            "ne": "Sports",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 142,
+                "n": "DD Sports",
+                "d": null,
+                "pu": "142.jpg",
+                "ne": "DD-Sports",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1391,
+                "n": "DD Sports HD",
+                "d": null,
+                "pu": "1391.webp",
+                "ne": "DD-Sports-HD",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 736,
+                "n": "Eurosport",
+                "d": null,
+                "pu": "736.jpg",
+                "ne": "Eurosport",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 151,
+                "n": "Sony Sports Ten 1",
+                "d": null,
+                "pu": "151.jpg",
+                "ne": "Sony-Sports-Ten-1",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1389,
+                "n": "Sony Sports Ten 1 HD",
+                "d": null,
+                "pu": "1389.webp",
+                "ne": "Sony-Sports-Ten-1-HD",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 689,
+                "n": "Sony Sports Ten 2",
+                "d": null,
+                "pu": "689.jpg",
+                "ne": "Sony-Sports-Ten-2",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1390,
+                "n": "Sony Sports Ten 2 HD",
+                "d": null,
+                "pu": "1390.webp",
+                "ne": "Sony-Sports-Ten-2-HD",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1590,
+                "n": "Sony Sports Ten 3",
+                "d": null,
+                "pu": null,
+                "ne": "Sony-Sports-Ten-3",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 153,
+                "n": "Sony Sports Ten 3 HD",
+                "d": null,
+                "pu": "153.jpg",
+                "ne": "Sony-Sports-Ten-3-HD",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1793,
+                "n": "SONY SPORTS TEN 4",
+                "d": null,
+                "pu": null,
+                "ne": "SONY-SPORTS-TEN-4",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1381,
+                "n": "Sony Sports Ten 4 HD",
+                "d": null,
+                "pu": "1381.webp",
+                "ne": "Sony-Sports-Ten-4-HD",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1392,
+                "n": "Sony Sports Ten 5",
+                "d": null,
+                "pu": "1392.webp",
+                "ne": "Sony-Sports-Ten-5",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1374,
+                "n": "Sports 18 - 1",
+                "d": null,
+                "pu": "1374.webp",
+                "ne": "Sports-18-1",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1393,
+                "n": "Sports 18 2",
+                "d": null,
+                "pu": "1393.webp",
+                "ne": "Sports-18-2",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 144,
+                "n": "Star Sports 1",
+                "d": null,
+                "pu": "144.jpg",
+                "ne": "Star-Sports-1",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1577,
+                "n": "Star Sports 1",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-1",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1553,
+                "n": "Star Sports 1 Hindi",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-1-Hindi",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1380,
+                "n": "Star Sports 1 Kannada",
+                "d": null,
+                "pu": "1380.webp",
+                "ne": "Star-Sports-1-Kannada",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1542,
+                "n": "STAR Sports 2",
+                "d": null,
+                "pu": null,
+                "ne": "STAR-Sports-2",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 146,
+                "n": "Star Sports 2 HD",
+                "d": null,
+                "pu": "146.jpg",
+                "ne": "Star-Sports-2-HD",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1545,
+                "n": "Star Sports 3",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-3",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1375,
+                "n": "Star Sports First",
+                "d": null,
+                "pu": "1375.webp",
+                "ne": "Star-Sports-First",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 681,
+                "n": "Star Sports Hindi 1",
+                "d": null,
+                "pu": "681.jpg",
+                "ne": "Star-Sports-Hindi-1",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1547,
+                "n": "Star Sports Khel",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-Khel",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1563,
+                "n": "Star Sports Select 1",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-Select-1",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 683,
+                "n": "Star Sports Select 1",
+                "d": null,
+                "pu": "683.jpg",
+                "ne": "Star-Sports-Select-1",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 646,
+                "n": "Star Sports Select 2",
+                "d": null,
+                "pu": "646.jpg",
+                "ne": "Star-Sports-Select-2",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1573,
+                "n": "Star Sports Select 2",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-Select-2",
+                "cci": 1522,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 1557,
+            "n": "Infotainment",
+            "ne": "Infotainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1663,
+                "n": "Animal Planet",
+                "d": null,
+                "pu": null,
+                "ne": "Animal-Planet",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 691,
+                "n": "Discovery",
+                "d": null,
+                "pu": "691.jpg",
+                "ne": "Discovery",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1656,
+                "n": "Discovery Channel",
+                "d": null,
+                "pu": null,
+                "ne": "Discovery-Channel",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1616,
+                "n": "Discovery Science",
+                "d": null,
+                "pu": null,
+                "ne": "Discovery-Science",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 69,
+                "n": "Discovery Turbo",
+                "d": null,
+                "pu": "69.jfif",
+                "ne": "Discovery-Turbo",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 614,
+                "n": "EPIC",
+                "d": null,
+                "pu": "614.jpg",
+                "ne": "EPIC",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 636,
+                "n": "Investigation Discovery",
+                "d": null,
+                "pu": "636.jpg",
+                "ne": "Investigation-Discovery",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1582,
+                "n": "Investigation Discovery HD",
+                "d": null,
+                "pu": null,
+                "ne": "Investigation-Discovery-HD",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1648,
+                "n": "National Geographic",
+                "d": null,
+                "pu": null,
+                "ne": "National-Geographic",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 696,
+                "n": "SONY BBC Earth",
+                "d": null,
+                "pu": "696.jpg",
+                "ne": "SONY-BBC-Earth",
+                "cci": 1557,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 12792,
+            "n": "Kannada Entertainment",
+            "ne": "Kannada-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1427,
+                "n": "Bhakthi Siri",
+                "d": null,
+                "pu": null,
+                "ne": "Bhakthi-Siri",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 505,
+                "n": "Colors Kannada HD",
+                "d": null,
+                "pu": "505.jpg",
+                "ne": "Colors-Kannada-HD",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1899,
+                "n": "Public TV",
+                "d": null,
+                "pu": null,
+                "ne": "Public-TV",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1798,
+                "n": "Star Suvarna",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Suvarna",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 45,
+                "n": "Star Suvarna HD",
+                "d": null,
+                "pu": "45.jpg",
+                "ne": "Star-Suvarna-HD",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1836,
+                "n": "Udaya Comedy",
+                "d": null,
+                "pu": null,
+                "ne": "Udaya-Comedy",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 38,
+                "n": "Udaya Movies",
+                "d": null,
+                "pu": "38.jpg",
+                "ne": "Udaya-Movies",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1160,
+                "n": "Udaya TV",
+                "d": null,
+                "pu": "1160.jpg",
+                "ne": "Udaya-TV",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1870,
+                "n": "Udaya TV HD",
+                "d": null,
+                "pu": null,
+                "ne": "Udaya-TV-HD",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1159,
+                "n": "Zee Kannada",
+                "d": null,
+                "pu": "1159.jpg",
+                "ne": "Zee-Kannada",
+                "cci": 12792,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 12985,
+            "n": "North East",
+            "ne": "North-East",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 747,
+                "n": "Rang",
+                "d": null,
+                "pu": "747.png",
+                "ne": "Rang",
+                "cci": 12985,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 748,
+                "n": "Rengoni",
+                "d": null,
+                "pu": "748.png",
+                "ne": "Rengoni",
+                "cci": 12985,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 12993,
+            "n": "Lifestyle",
+            "ne": "Lifestyle",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1666,
+                "n": "Fashion TV",
+                "d": null,
+                "pu": null,
+                "ne": "Fashion-TV",
+                "cci": 12993,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1161,
+                "n": "Food Food",
+                "d": null,
+                "pu": "1161.jpg",
+                "ne": "Food-Food",
+                "cci": 12993,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 77,
+                "n": "History TV18 HD",
+                "d": null,
+                "pu": "77.png",
+                "ne": "History-TV18-HD",
+                "cci": 12993,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 68,
+                "n": "NDTV Good Times",
+                "d": null,
+                "pu": "68.png",
+                "ne": "NDTV-Good-Times",
+                "cci": 12993,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1641,
+                "n": "TLC",
+                "d": null,
+                "pu": null,
+                "ne": "TLC",
+                "cci": 12993,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 70,
+                "n": "TLC HD World",
+                "d": null,
+                "pu": "70.png",
+                "ne": "TLC-HD-World",
+                "cci": 12993,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 79,
+                "n": "Travel XP HD",
+                "d": null,
+                "pu": "79.png",
+                "ne": "Travel-XP-HD",
+                "cci": 12993,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1651,
+                "n": "Travelxp",
+                "d": null,
+                "pu": null,
+                "ne": "Travelxp",
+                "cci": 12993,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 13682,
+            "n": "Bhojpuri Entertainment",
+            "ne": "Bhojpuri-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1284,
+                "n": "B4U Bhojpuri",
+                "d": null,
+                "pu": "1284.webp",
+                "ne": "B4U-Bhojpuri",
+                "cci": 13682,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 704,
+                "n": "Bhojpuri Cinema",
+                "d": null,
+                "pu": "704.jpg",
+                "ne": "Bhojpuri-Cinema",
+                "cci": 13682,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1287,
+                "n": "Dangal 2",
+                "d": null,
+                "pu": "1287.webp",
+                "ne": "Dangal-2",
+                "cci": 13682,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1285,
+                "n": "Filamchi Bhojpuri",
+                "d": null,
+                "pu": "1285.webp",
+                "ne": "Filamchi-Bhojpuri",
+                "cci": 13682,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 35,
+                "n": "Oscar Movies Bhojpuri",
+                "d": null,
+                "pu": "35.jpg",
+                "ne": "Oscar-Movies-Bhojpuri",
+                "cci": 13682,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1286,
+                "n": "Zee Biskope",
+                "d": null,
+                "pu": "1286.webp",
+                "ne": "Zee-Biskope",
+                "cci": 13682,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1157,
+                "n": "Zee Ganga",
+                "d": null,
+                "pu": "1157.jpg",
+                "ne": "Zee-Ganga",
+                "cci": 13682,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 16679,
+            "n": "Kannada Movies",
+            "ne": "Kannada-Movies",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1876,
+                "n": "Colors Kannada",
+                "d": null,
+                "pu": null,
+                "ne": "Colors-Kannada",
+                "cci": 16679,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1845,
+                "n": "Colors Kannada Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Colors-Kannada-Cinema",
+                "cci": 16679,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1865,
+                "n": "Zee Picchar",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Picchar",
+                "cci": 16679,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 17321,
+            "n": "Punjab Entertainment",
+            "ne": "Punjab-Entertainment",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1166,
+                "n": "PTC Punjabi Gold",
+                "d": null,
+                "pu": "1166.jpg",
+                "ne": "PTC-Punjabi-Gold",
+                "cci": 17321,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 17322,
+            "n": "Telugu Movie",
+            "ne": "Telugu-Movie",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 222,
+                "n": "ETV Cinema",
+                "d": null,
+                "pu": "222.webp",
+                "ne": "ETV-Cinema",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1794,
+                "n": "ETV Cinema HD",
+                "d": null,
+                "pu": null,
+                "ne": "ETV-Cinema-HD",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 37,
+                "n": "Gemini Movies",
+                "d": null,
+                "pu": "37.jpg",
+                "ne": "Gemini-Movies",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1756,
+                "n": "Gemini Movies HD",
+                "d": null,
+                "pu": null,
+                "ne": "Gemini-Movies-HD",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1774,
+                "n": "Star Maa Gold",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Maa-Gold",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 36,
+                "n": "Star Maa Movies",
+                "d": null,
+                "pu": "36.jpg",
+                "ne": "Star-Maa-Movies",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1763,
+                "n": "Star Maa Movies HD",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Maa-Movies-HD",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1776,
+                "n": "Tata Play Telugu Cinema",
+                "d": null,
+                "pu": null,
+                "ne": "Tata-Play-Telugu-Cinema",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1786,
+                "n": "Zee Cinemalu",
+                "d": null,
+                "pu": null,
+                "ne": "Zee-Cinemalu",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 705,
+                "n": "Zee Cinemalu HD",
+                "d": null,
+                "pu": "705.jpg",
+                "ne": "Zee-Cinemalu-HD",
+                "cci": 17322,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 22882,
+            "n": "Hindi Serials",
+            "ne": "Hindi-Serials",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 1621,
+                "n": "\u0026TV",
+                "d": null,
+                "pu": null,
+                "ne": "TV",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 94,
+                "n": "\u0026TV HD",
+                "d": null,
+                "pu": "94.jpg",
+                "ne": "TV-HD",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 96,
+                "n": "Colors",
+                "d": null,
+                "pu": "96.png",
+                "ne": "Colors",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 100,
+                "n": "Colors Rishtey",
+                "d": null,
+                "pu": "100.png",
+                "ne": "Colors-Rishtey",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 53,
+                "n": "Sony Entertainment Television",
+                "d": null,
+                "pu": "53.jpg",
+                "ne": "Sony-Entertainment-Television",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 54,
+                "n": "Sony SAB",
+                "d": null,
+                "pu": "54.jpg",
+                "ne": "Sony-SAB",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 92,
+                "n": "Star Bharat",
+                "d": null,
+                "pu": "92.jpg",
+                "ne": "Star-Bharat",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1589,
+                "n": "Star Plus",
+                "d": null,
+                "pu": "1589.png",
+                "ne": "Star-Plus",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 91,
+                "n": "Star Plus HD",
+                "d": null,
+                "pu": "91.png",
+                "ne": "Star-Plus-HD",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 98,
+                "n": "Star Utsav",
+                "d": null,
+                "pu": "98.jpg",
+                "ne": "Star-Utsav",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1399,
+                "n": "Sun Neo",
+                "d": null,
+                "pu": "1399.webp",
+                "ne": "Sun-Neo",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 99,
+                "n": "Zee Anmol",
+                "d": null,
+                "pu": "99.jpg",
+                "ne": "Zee-Anmol",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1639,
+                "n": "Zee TV",
+                "d": null,
+                "pu": "1639.jpg",
+                "ne": "Zee-TV",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 95,
+                "n": "Zee TV HD",
+                "d": null,
+                "pu": "95.jpg",
+                "ne": "Zee-TV-HD",
+                "cci": 22882,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 22977,
+            "n": "South Sports",
+            "ne": "South-Sports",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 690,
+                "n": "Star Sports 1 Tamil",
+                "d": null,
+                "pu": "690.jpg",
+                "ne": "Star-Sports-1-Tamil",
+                "cci": 22977,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1859,
+                "n": "Star Sports 1 Tamil HD",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-1-Tamil-HD",
+                "cci": 22977,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1723,
+                "n": "Star Sports 1 Telugu",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-1-Telugu",
+                "cci": 22977,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1808,
+                "n": "Star Sports 2 Tamil",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-2-Tamil",
+                "cci": 22977,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1799,
+                "n": "Star Sports 2 Tamil HD",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-2-Tamil-HD",
+                "cci": 22977,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1730,
+                "n": "Star Sports 2 Telugu HD",
+                "d": null,
+                "pu": null,
+                "ne": "Star-Sports-2-Telugu-HD",
+                "cci": 22977,
+                "cc": null,
+                "so": null
+            }
+        ]
+    },
+    {
+        "key": {
+            "i": 23035,
+            "n": "Hindi Movies Free To Air",
+            "ne": "Hindi-Movies-Free-To-Air",
+            "so": null,
+            "count": null
+        },
+        "value": [
+            {
+                "i": 713,
+                "n": "B4U Kadak",
+                "d": null,
+                "pu": "713.png",
+                "ne": "B4U-Kadak",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 715,
+                "n": "Colors Cineplex",
+                "d": null,
+                "pu": "715.jpg",
+                "ne": "Colors-Cineplex",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1368,
+                "n": "Colors Cineplex Bollywood",
+                "d": null,
+                "pu": "1368.webp",
+                "ne": "Colors-Cineplex-Bollywood",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 745,
+                "n": "Goldmines",
+                "d": null,
+                "pu": "745.webp",
+                "ne": "Goldmines",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1568,
+                "n": "Goldmines Bollywood",
+                "d": null,
+                "pu": "1568.webp",
+                "ne": "Goldmines-Bollywood",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 552,
+                "n": "Sony Wah",
+                "d": null,
+                "pu": "552.webp",
+                "ne": "Sony-Wah",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 661,
+                "n": "Star Utsav Movies",
+                "d": null,
+                "pu": "661.png",
+                "ne": "Star-Utsav-Movies",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 653,
+                "n": "Zee Anmol Cinema",
+                "d": null,
+                "pu": "653.png",
+                "ne": "Zee-Anmol-Cinema",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 1401,
+                "n": "Zee Anmol Cinema 2",
+                "d": null,
+                "pu": "1401.webp",
+                "ne": "Zee-Anmol-Cinema-2",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            },
+            {
+                "i": 702,
+                "n": "Zee Bollywood",
+                "d": null,
+                "pu": "702.png",
+                "ne": "Zee-Bollywood",
+                "cci": 23035,
+                "cc": null,
+                "so": null
+            }
+        ]
+    }
+]
